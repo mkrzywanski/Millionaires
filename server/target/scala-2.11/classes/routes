@@ -8,7 +8,7 @@ GET     /hello                          controllers.Application.hello
 GET     /answers                        controllers.Application.answers
 GET     /questions                      controllers.Application.questions
 GET     /questions/random/:level        controllers.Application.getRandomQuestionForLevel(level: Int)
-GET     /questions/toFriend/questionId  controllers.Application.questionToAFriend(questionId : Int)
+GET     /questions/toFriend/:questionId controllers.Application.questionToAFriend(questionId : Int)
 GET     /answers/correct/:answerId      controllers.Application.chceckIfAnswerIsCorrect(answerId : Int)
 GET     /questions/audience/:questionId controllers.Application.questionForAudience(questionId : Int)
 

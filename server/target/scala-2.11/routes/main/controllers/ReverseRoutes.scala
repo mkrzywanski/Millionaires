@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/michal/Pulpit/scala2017_02/server/conf/routes
-// @DATE:Wed May 24 16:51:34 CEST 2017
+// @DATE:Thu May 25 22:08:53 CEST 2017
 
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
 import play.core.routing.{ HandlerDef, ReverseRouteContext, queryString, dynamicString }
@@ -55,7 +55,7 @@ package controllers {
     // @LINE:11
     def questionToAFriend(questionId:Int): Call = {
       import ReverseRouteContext.empty
-      Call("GET", _prefix + { _defaultPrefix } + "questions/toFriend/questionId" + queryString(List(Some(implicitly[QueryStringBindable[Int]].unbind("questionId", questionId)))))
+      Call("GET", _prefix + { _defaultPrefix } + "questions/toFriend/" + implicitly[PathBindable[Int]].unbind("questionId", questionId))
     }
   
     // @LINE:13

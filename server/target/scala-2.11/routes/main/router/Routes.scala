@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/michal/Pulpit/scala2017_02/server/conf/routes
-// @DATE:Wed May 24 16:51:34 CEST 2017
+// @DATE:Thu May 25 22:08:53 CEST 2017
 
 package router
 
@@ -47,7 +47,7 @@ class Routes(
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """answers""", """controllers.Application.answers"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """questions""", """controllers.Application.questions"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """questions/random/""" + "$" + """level<[^/]+>""", """controllers.Application.getRandomQuestionForLevel(level:Int)"""),
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """questions/toFriend/questionId""", """controllers.Application.questionToAFriend(questionId:Int)"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """questions/toFriend/""" + "$" + """questionId<[^/]+>""", """controllers.Application.questionToAFriend(questionId:Int)"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """answers/correct/""" + "$" + """answerId<[^/]+>""", """controllers.Application.chceckIfAnswerIsCorrect(answerId:Int)"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """questions/audience/""" + "$" + """questionId<[^/]+>""", """controllers.Application.questionForAudience(questionId:Int)"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/""" + "$" + """file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
@@ -145,7 +145,7 @@ class Routes(
 
   // @LINE:11
   private[this] lazy val controllers_Application_questionToAFriend5_route = Route("GET",
-    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("questions/toFriend/questionId")))
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("questions/toFriend/"), DynamicPart("questionId", """[^/]+""",true)))
   )
   private[this] lazy val controllers_Application_questionToAFriend5_invoker = createInvoker(
     Application_1.questionToAFriend(fakeValue[Int]),
@@ -156,7 +156,7 @@ class Routes(
       Seq(classOf[Int]),
       "GET",
       """""",
-      this.prefix + """questions/toFriend/questionId"""
+      this.prefix + """questions/toFriend/""" + "$" + """questionId<[^/]+>"""
     )
   )
 
@@ -246,7 +246,7 @@ class Routes(
   
     // @LINE:11
     case controllers_Application_questionToAFriend5_route(params) =>
-      call(params.fromQuery[Int]("questionId", None)) { (questionId) =>
+      call(params.fromPath[Int]("questionId", None)) { (questionId) =>
         controllers_Application_questionToAFriend5_invoker.call(Application_1.questionToAFriend(questionId))
       }
   

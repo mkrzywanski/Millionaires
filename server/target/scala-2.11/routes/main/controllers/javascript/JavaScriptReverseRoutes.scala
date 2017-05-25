@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/michal/Pulpit/scala2017_02/server/conf/routes
-// @DATE:Wed May 24 16:51:34 CEST 2017
+// @DATE:Thu May 25 22:08:53 CEST 2017
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -77,7 +77,7 @@ package controllers.javascript {
       "controllers.Application.questionToAFriend",
       """
         function(questionId0) {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "questions/toFriend/questionId" + _qS([(""" + implicitly[QueryStringBindable[Int]].javascriptUnbind + """)("questionId", questionId0)])})
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "questions/toFriend/" + (""" + implicitly[PathBindable[Int]].javascriptUnbind + """)("questionId", questionId0)})
         }
       """
     )

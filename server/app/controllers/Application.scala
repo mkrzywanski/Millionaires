@@ -81,19 +81,19 @@ class Application @Inject()(answerService: AnswerService, questionService: Quest
 
     answers.map { r =>
       var audienceAnswerPercentageSeq = Seq.empty[AnswerAudiencePercentage];
-      var percentage = 60;
+      var percentage = 80;
       r.foreach{ answer =>
         var percentageForAnswer = Utils.getRandomNumber(0, percentage);
         percentage -= percentageForAnswer;
         if(answer.isCorrect == true) {
-          percentageForAnswer += 40;
+          percentageForAnswer += 20;
         }
 
         audienceAnswerPercentageSeq = audienceAnswerPercentageSeq :+ AnswerAudiencePercentage(answer.id, percentageForAnswer);
       }
 
       val amountToAdd = questionService.checkPercentagesIsUnderOneHundred(audienceAnswerPercentageSeq);
-      val indexOfSeqToAddDifference = Utils.getRandomNumber(0, audienceAnswerPercentageSeq.size);
+      val indexOfSeqToAddDifference = Utils.getRandomNumber(0, audienceAnswerPercentageSeq.size - 1);
       audienceAnswerPercentageSeq(indexOfSeqToAddDifference).percentage += amountToAdd;
       Ok(audienceAnswerPercentageSeq.toJson.compactPrint)
 

@@ -25,13 +25,9 @@ class index extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Forma
 Seq[Any](format.raw/*1.19*/("""
 
 """),_display_(/*3.2*/main("Play with Scala.js")/*3.28*/ {_display_(Seq[Any](format.raw/*3.30*/("""
-"""),format.raw/*4.1*/("""<h2>Play and Scala.js share a same message</h2>
-<ul>
-  <li>Play shouts out: <em>"""),_display_(/*6.29*/message),format.raw/*6.36*/("""</em></li>
-  <li>Scala.js shouts out: <em id="scalajsShoutOut"></em></li>
-  <button id="Next">Click</button>
-</ul>
-""")))}),format.raw/*10.2*/("""
+"""),format.raw/*4.1*/("""<h2>Milionerzy</h2>
+    <div id="pageContent"></div>
+""")))}),format.raw/*6.2*/("""
 """))
       }
     }
@@ -52,11 +48,11 @@ Seq[Any](format.raw/*1.19*/("""
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Tue May 23 11:01:01 CEST 2017
-                  SOURCE: /home/michal/Pulpit/play-with-scalajs-example-master/server/app/views/index.scala.html
-                  HASH: ae6a61bec35b27d7e5f4e1d3da15ba06537391fc
-                  MATRIX: 527->1|639->18|667->21|701->47|740->49|767->50|874->131|901->138|1047->254
-                  LINES: 20->1|25->1|27->3|27->3|27->3|28->4|30->6|30->6|34->10
+                  DATE: Wed May 24 20:09:41 CEST 2017
+                  SOURCE: /home/michal/Pulpit/scala2017_02/server/app/views/index.scala.html
+                  HASH: 13cbd3905ad8e8985968f7fb818989e157ce2f9d
+                  MATRIX: 527->1|639->18|667->21|701->47|740->49|767->50|850->104
+                  LINES: 20->1|25->1|27->3|27->3|27->3|28->4|30->6
                   -- GENERATED --
               */
           

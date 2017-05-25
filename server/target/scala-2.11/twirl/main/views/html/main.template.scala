@@ -31,11 +31,15 @@ Seq[Any](format.raw/*1.32*/("""
     <title>"""),_display_(/*7.13*/title),format.raw/*7.18*/("""</title>
     <link rel="stylesheet" media="screen" href=""""),_display_(/*8.50*/routes/*8.56*/.Assets.versioned("stylesheets/main.css")),format.raw/*8.97*/("""">
     <link rel="shortcut icon" type="image/png" href=""""),_display_(/*9.55*/routes/*9.61*/.Assets.versioned("images/favicon.png")),format.raw/*9.100*/("""">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   </head>
   <body>
-   """),_display_(/*12.5*/content),format.raw/*12.12*/("""
-   """),_display_(/*13.5*/scalajs/*13.12*/.html.scripts("client", routes.Assets.versioned(_).toString, name => getClass.getResource(s"/public/$name") != null)),format.raw/*13.128*/("""
-  """),format.raw/*14.3*/("""</body>
+   """),_display_(/*16.5*/content),format.raw/*16.12*/("""
+   """),_display_(/*17.5*/scalajs/*17.12*/.html.scripts("client", routes.Assets.versioned(_).toString, name => getClass.getResource(s"/public/$name") != null)),format.raw/*17.128*/("""
+  """),format.raw/*18.3*/("""</body>
 </html>
 """))
       }
@@ -57,11 +61,11 @@ Seq[Any](format.raw/*1.32*/("""
 object main extends main_Scope0.main
               /*
                   -- GENERATED --
-                  DATE: Mon May 22 20:13:12 CEST 2017
-                  SOURCE: /home/michal/Pulpit/play-with-scalajs-example-master/server/app/views/main.scala.html
-                  HASH: 11b99fba07ff63394e15f16ffbf41e0fe597c511
-                  MATRIX: 530->1|655->31|683->33|754->78|779->83|863->141|877->147|938->188|1021->245|1035->251|1095->290|1147->316|1175->323|1206->328|1222->335|1360->451|1390->454
-                  LINES: 20->1|25->1|27->3|31->7|31->7|32->8|32->8|32->8|33->9|33->9|33->9|36->12|36->12|37->13|37->13|37->13|38->14
+                  DATE: Thu May 25 21:19:14 CEST 2017
+                  SOURCE: /home/michal/Pulpit/scala2017_02/server/app/views/main.scala.html
+                  HASH: 12ad227ffa01d8f72db03de84e62ad9564ba9a72
+                  MATRIX: 530->1|655->31|683->33|754->78|779->83|863->141|877->147|938->188|1021->245|1035->251|1095->290|1669->838|1697->845|1728->850|1744->857|1882->973|1912->976
+                  LINES: 20->1|25->1|27->3|31->7|31->7|32->8|32->8|32->8|33->9|33->9|33->9|40->16|40->16|41->17|41->17|41->17|42->18
                   -- GENERATED --
               */
           
