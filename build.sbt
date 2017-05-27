@@ -11,8 +11,10 @@ lazy val server = (project in file("server")).settings(
   libraryDependencies ++= Seq(
     "com.vmunier" %% "scalajs-scripts" % "1.0.0",
     "com.typesafe.play" %% "play-slick" % "2.1.0",
+    "com.typesafe.play" %% "play-slick-evolutions" % "2.1.0",
     "mysql" % "mysql-connector-java" % "5.1.34",
     "io.spray" %%  "spray-json" % "1.3.3",
+    //evolutions,
     specs2 % Test
   ),
   // Compile the project before generating Eclipse files, so that generated .scala or .class files for views and routes are present

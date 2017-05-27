@@ -25,7 +25,7 @@ class index extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Forma
 Seq[Any](format.raw/*1.19*/("""
 
 """),_display_(/*3.2*/main("Play with Scala.js")/*3.28*/ {_display_(Seq[Any](format.raw/*3.30*/("""
-"""),format.raw/*4.1*/("""<h2>Milionerzy</h2>
+"""),format.raw/*4.1*/("""<h2 class="text-center">Milionerzy</h2>
     <div id="pageContent"></div>
 """)))}),format.raw/*6.2*/("""
 """))
@@ -48,10 +48,10 @@ Seq[Any](format.raw/*1.19*/("""
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Wed May 24 20:09:41 CEST 2017
+                  DATE: Sat May 27 18:00:01 CEST 2017
                   SOURCE: /home/michal/Pulpit/scala2017_02/server/app/views/index.scala.html
-                  HASH: 13cbd3905ad8e8985968f7fb818989e157ce2f9d
-                  MATRIX: 527->1|639->18|667->21|701->47|740->49|767->50|850->104
+                  HASH: 9b3fe3856bd34f24872a6dccb687a07352beb2da
+                  MATRIX: 527->1|639->18|667->21|701->47|740->49|767->50|870->124
                   LINES: 20->1|25->1|27->3|27->3|27->3|28->4|30->6
                   -- GENERATED --
               */

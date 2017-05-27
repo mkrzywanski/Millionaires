@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/michal/Pulpit/scala2017_02/server/conf/routes
-// @DATE:Thu May 25 22:08:53 CEST 2017
+// @DATE:Fri May 26 18:01:52 CEST 2017
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -14,7 +14,7 @@ import _root_.controllers.Assets.Asset
 package controllers.javascript {
   import ReverseRouteContext.empty
 
-  // @LINE:16
+  // @LINE:17
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -22,7 +22,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:16
+    // @LINE:17
     def versioned: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.versioned",
       """
@@ -41,6 +41,16 @@ package controllers.javascript {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
+  
+    // @LINE:14
+    def eliminateTwoWrongAnswers: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.eliminateTwoWrongAnswers",
+      """
+        function(questionId0) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "questions/eliminate/" + (""" + implicitly[PathBindable[Int]].javascriptUnbind + """)("questionId", questionId0)})
+        }
+      """
+    )
   
     // @LINE:8
     def answers: JavaScriptReverseRoute = JavaScriptReverseRoute(

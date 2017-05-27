@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/michal/Pulpit/scala2017_02/server/conf/routes
-// @DATE:Thu May 25 22:08:53 CEST 2017
+// @DATE:Fri May 26 18:01:52 CEST 2017
 
 package router
 
@@ -17,7 +17,7 @@ class Routes(
   override val errorHandler: play.api.http.HttpErrorHandler, 
   // @LINE:6
   Application_1: controllers.Application,
-  // @LINE:16
+  // @LINE:17
   Assets_0: controllers.Assets,
   val prefix: String
 ) extends GeneratedRouter {
@@ -26,7 +26,7 @@ class Routes(
    def this(errorHandler: play.api.http.HttpErrorHandler,
     // @LINE:6
     Application_1: controllers.Application,
-    // @LINE:16
+    // @LINE:17
     Assets_0: controllers.Assets
   ) = this(errorHandler, Application_1, Assets_0, "/")
 
@@ -50,6 +50,7 @@ class Routes(
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """questions/toFriend/""" + "$" + """questionId<[^/]+>""", """controllers.Application.questionToAFriend(questionId:Int)"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """answers/correct/""" + "$" + """answerId<[^/]+>""", """controllers.Application.chceckIfAnswerIsCorrect(answerId:Int)"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """questions/audience/""" + "$" + """questionId<[^/]+>""", """controllers.Application.questionForAudience(questionId:Int)"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """questions/eliminate/""" + "$" + """questionId<[^/]+>""", """controllers.Application.eliminateTwoWrongAnswers(questionId:Int)"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/""" + "$" + """file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
@@ -194,11 +195,28 @@ class Routes(
     )
   )
 
-  // @LINE:16
-  private[this] lazy val controllers_Assets_versioned8_route = Route("GET",
+  // @LINE:14
+  private[this] lazy val controllers_Application_eliminateTwoWrongAnswers8_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("questions/eliminate/"), DynamicPart("questionId", """[^/]+""",true)))
+  )
+  private[this] lazy val controllers_Application_eliminateTwoWrongAnswers8_invoker = createInvoker(
+    Application_1.eliminateTwoWrongAnswers(fakeValue[Int]),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "eliminateTwoWrongAnswers",
+      Seq(classOf[Int]),
+      "GET",
+      """""",
+      this.prefix + """questions/eliminate/""" + "$" + """questionId<[^/]+>"""
+    )
+  )
+
+  // @LINE:17
+  private[this] lazy val controllers_Assets_versioned9_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("assets/"), DynamicPart("file", """.+""",false)))
   )
-  private[this] lazy val controllers_Assets_versioned8_invoker = createInvoker(
+  private[this] lazy val controllers_Assets_versioned9_invoker = createInvoker(
     Assets_0.versioned(fakeValue[String], fakeValue[Asset]),
     HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -262,10 +280,16 @@ class Routes(
         controllers_Application_questionForAudience7_invoker.call(Application_1.questionForAudience(questionId))
       }
   
-    // @LINE:16
-    case controllers_Assets_versioned8_route(params) =>
+    // @LINE:14
+    case controllers_Application_eliminateTwoWrongAnswers8_route(params) =>
+      call(params.fromPath[Int]("questionId", None)) { (questionId) =>
+        controllers_Application_eliminateTwoWrongAnswers8_invoker.call(Application_1.eliminateTwoWrongAnswers(questionId))
+      }
+  
+    // @LINE:17
+    case controllers_Assets_versioned9_route(params) =>
       call(Param[String]("path", Right("/public")), params.fromPath[Asset]("file", None)) { (path, file) =>
-        controllers_Assets_versioned8_invoker.call(Assets_0.versioned(path, file))
+        controllers_Assets_versioned9_invoker.call(Assets_0.versioned(path, file))
       }
   }
 }

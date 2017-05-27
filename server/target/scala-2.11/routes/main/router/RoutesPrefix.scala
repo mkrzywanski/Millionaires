@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/michal/Pulpit/scala2017_02/server/conf/routes
-// @DATE:Thu May 25 22:08:53 CEST 2017
+// @DATE:Fri May 26 18:01:52 CEST 2017
 
 
 package router {

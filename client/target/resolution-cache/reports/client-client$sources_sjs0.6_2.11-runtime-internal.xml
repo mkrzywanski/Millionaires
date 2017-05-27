@@ -7,10 +7,10 @@
 		revision="0.1-SNAPSHOT"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, phantom-js-jetty"
-		date="20170524193434"/>
+		date="20170527011059"/>
 	<dependencies>
 		<module organisation="shared" name="shared_sjs0.6_2.11">
-			<revision name="0.1-SNAPSHOT" status="integration" pubdate="20170524193424" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="5">
+			<revision name="0.1-SNAPSHOT" status="integration" pubdate="20170527011055" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="5">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="client" name="client$sources_sjs0.6_2.11" conf="compile, runtime-internal, runtime, optional" rev="0.1-SNAPSHOT" rev-constraint-default="0.1-SNAPSHOT" rev-constraint-dynamic="0.1-SNAPSHOT" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
@@ -23,7 +23,7 @@
 				<metadata-artifact status="no" details="" size="3820" time="0" location="/home/michal/.ivy2/cache/com.lihaoyi/scalatags_sjs0.6_2.11/ivy-0.6.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.11/0.6.2/scalatags_sjs0.6_2.11-0.6.2.pom"/>
 				<caller organisation="client" name="client$sources_sjs0.6_2.11" conf="compile, runtime-internal, runtime, optional" rev="0.6.2" rev-constraint-default="0.6.2" rev-constraint-dynamic="0.6.2" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="scalatags_sjs0.6_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="77790" time="394" location="/home/michal/.ivy2/cache/com.lihaoyi/scalatags_sjs0.6_2.11/srcs/scalatags_sjs0.6_2.11-0.6.2-sources.jar">
+					<artifact name="scalatags_sjs0.6_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="77790" time="0" location="/home/michal/.ivy2/cache/com.lihaoyi/scalatags_sjs0.6_2.11/srcs/scalatags_sjs0.6_2.11-0.6.2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.11/0.6.2/scalatags_sjs0.6_2.11-0.6.2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -35,7 +35,7 @@
 				<metadata-artifact status="no" details="" size="3268" time="0" location="/home/michal/.ivy2/cache/com.lihaoyi/sourcecode_sjs0.6_2.11/ivy-0.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.pom"/>
 				<caller organisation="client" name="client$sources_sjs0.6_2.11" conf="compile, runtime-internal, runtime, optional" rev="0.1.3" rev-constraint-default="0.1.3" rev-constraint-dynamic="0.1.3" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="sourcecode_sjs0.6_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="2593" time="208" location="/home/michal/.ivy2/cache/com.lihaoyi/sourcecode_sjs0.6_2.11/srcs/sourcecode_sjs0.6_2.11-0.1.3-sources.jar">
+					<artifact name="sourcecode_sjs0.6_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2593" time="0" location="/home/michal/.ivy2/cache/com.lihaoyi/sourcecode_sjs0.6_2.11/srcs/sourcecode_sjs0.6_2.11-0.1.3-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3-sources.jar"/>
 					</artifact>
 				</artifacts>

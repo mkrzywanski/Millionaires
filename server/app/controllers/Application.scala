@@ -44,9 +44,9 @@ class Application @Inject()(answerService: AnswerService, questionService: Quest
     val randomQuestion = questionService.getRandomQuestionForLevel(level);
 
     randomQuestion.map { q =>
-      val index = Utils.getRandomNumber(1, q.size)
+      val index = Utils.getRandomNumber(0, q.size - 1)
       val q2 = q.map{ case (question, answersList) => QuestionWithAnswers(question.id, question.content, question.level, answersList) }
-      Ok(q2.take(index).head.toJson.compactPrint)
+      Ok(q2(index).toJson.compactPrint)
     }
   }
 
@@ -98,8 +98,5 @@ class Application @Inject()(answerService: AnswerService, questionService: Quest
       Ok(audienceAnswerPercentageSeq.toJson.compactPrint)
 
     }
-
-
   }
-
 }
