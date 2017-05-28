@@ -1,6 +1,7 @@
-package persistance.protocols
+package service.protocols
 
 import persistance.model._
+import service.jsonmodels.{AnswerAudiencePercentageJsonModel, AnswerCorrectJsonModel, QuestionToFriendJsonModel}
 import spray.json._
 
 /**
@@ -37,26 +38,26 @@ object MyJsonProtocol extends DefaultJsonProtocol {
     def read(value: JsValue): QuestionWithAnswers = ???
   }
 
-  implicit object AnswerCorrectnessJsonFormat extends RootJsonFormat[AnswerCorrectness] {
-    def write(answerCorrectness: AnswerCorrectness) = JsObject(Map(
+  implicit object AnswerCorrectnessJsonFormat extends RootJsonFormat[AnswerCorrectJsonModel] {
+    def write(answerCorrectness: AnswerCorrectJsonModel) = JsObject(Map(
       "isCorrect" -> JsBoolean(answerCorrectness.isCorrect)
     ))
-    def read(value: JsValue): AnswerCorrectness = ???
+    def read(value: JsValue): AnswerCorrectJsonModel = ???
   }
 
-  implicit object QuestionToFriendJsonFormat extends RootJsonFormat[QuestionToFriend] {
-    def write(questionToFriend: QuestionToFriend) = JsObject(Map(
+  implicit object QuestionToFriendJsonFormat extends RootJsonFormat[QuestionToFriendJsonModel] {
+    def write(questionToFriend: QuestionToFriendJsonModel) = JsObject(Map(
       "content" -> JsString(questionToFriend.content),
       "answerId" -> JsNumber(questionToFriend.correctAnswerId)
     ))
-    def read(value: JsValue): QuestionToFriend = ???
+    def read(value: JsValue): QuestionToFriendJsonModel = ???
   }
 
-  implicit object AnswerAudiencePercentageJsonFormat extends RootJsonFormat[AnswerAudiencePercentage] {
-    def write(answerAudiencePercentage : AnswerAudiencePercentage) = JsObject(Map(
+  implicit object AnswerAudiencePercentageJsonFormat extends RootJsonFormat[AnswerAudiencePercentageJsonModel] {
+    def write(answerAudiencePercentage : AnswerAudiencePercentageJsonModel) = JsObject(Map(
       "answerId" -> JsNumber(answerAudiencePercentage.answerId),
       "percentage" -> JsNumber(answerAudiencePercentage.percentage)
     ))
-    def read(value: JsValue): AnswerAudiencePercentage = ???
+    def read(value: JsValue): AnswerAudiencePercentageJsonModel = ???
   }
 }

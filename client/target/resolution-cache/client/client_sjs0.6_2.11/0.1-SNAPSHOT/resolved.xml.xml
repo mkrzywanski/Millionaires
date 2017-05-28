@@ -4,7 +4,7 @@
 		module="client_sjs0.6_2.11"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170527011115"
+		publication="20170527214646"
 	>
 		<description>
 		client
@@ -43,5 +43,7 @@
 		<dependency org="org.scala-js" name="scalajs-test-interface_2.11" rev="0.6.15" conf="test->default(compile)"/>
 		<dependency org="org.scala-js" name="scalajs-dom_sjs0.6_2.11" rev="0.9.1" conf="compile->default(compile)"/>
 		<dependency org="com.lihaoyi" name="scalatags_sjs0.6_2.11" rev="0.6.2" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_sjs0.6_2.11" rev="3.0.0" conf="test->default(compile)"/>
+		<dependency org="be.doeraene" name="scalajs-jquery_sjs0.6_2.11" rev="0.9.1" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

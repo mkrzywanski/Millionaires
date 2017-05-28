@@ -7,7 +7,7 @@
 		revision="0.1-SNAPSHOT"
 		conf="compile-internal"
 		confs="universal, universal-docs, universal-src, compile, runtime, test, provided, optional, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170527011059"/>
+		date="20170527214450"/>
 	<dependencies>
 		<module organisation="com.google.guava" name="guava">
 			<revision name="16.0.1" status="release" pubdate="20140203234528" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="58">
@@ -82,7 +82,7 @@
 			</revision>
 		</module>
 		<module organisation="shared" name="shared_2.11">
-			<revision name="0.1-SNAPSHOT" status="integration" pubdate="20170527011055" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="25">
+			<revision name="0.1-SNAPSHOT" status="integration" pubdate="20170527214128" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="25">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="server" name="server$sources_2.11" conf="compile-internal, compile, provided, optional" rev="0.1-SNAPSHOT" rev-constraint-default="0.1-SNAPSHOT" rev-constraint-dynamic="0.1-SNAPSHOT" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
@@ -107,7 +107,7 @@
 				<metadata-artifact status="no" details="" size="3351" time="0" location="/home/michal/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.11/ivy-2.5.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-evolutions_2.11/2.5.12/play-jdbc-evolutions_2.11-2.5.12.pom"/>
 				<caller organisation="server" name="server$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.5.12" rev-constraint-default="2.5.12" rev-constraint-dynamic="2.5.12" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="play-jdbc-evolutions_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="17486" time="751" location="/home/michal/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.11/srcs/play-jdbc-evolutions_2.11-2.5.12-sources.jar">
+					<artifact name="play-jdbc-evolutions_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="17486" time="0" location="/home/michal/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.11/srcs/play-jdbc-evolutions_2.11-2.5.12-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-evolutions_2.11/2.5.12/play-jdbc-evolutions_2.11-2.5.12-sources.jar"/>
 					</artifact>
 				</artifacts>

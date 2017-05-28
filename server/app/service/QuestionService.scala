@@ -4,10 +4,11 @@ import javax.inject.Inject
 
 import persistance.tabledefinitions.{AnswerTableDef, QuestionTableDef}
 import play.api.db.slick.DatabaseConfigProvider
+import service.jsonmodels.AnswerAudiencePercentageJsonModel
 import slick.jdbc.JdbcProfile
 import slick.jdbc.MySQLProfile.api._
+
 import scala.concurrent.ExecutionContext.Implicits.global;
-import persistance.model.AnswerAudiencePercentage
 
 /**
   * Created by michal on 22.05.17.
@@ -16,6 +17,11 @@ class QuestionService @Inject()(dbConfigProvider: DatabaseConfigProvider) {
   val dbConfig = dbConfigProvider.get[JdbcProfile]
   val answers = TableQuery[AnswerTableDef];
   val questions = TableQuery[QuestionTableDef];
+
+
+  def listAllAnswers = {
+    dbConfig.db.run(answers.result)
+  }
 
   def listAll = {
     val q = (for {
@@ -52,7 +58,7 @@ class QuestionService @Inject()(dbConfigProvider: DatabaseConfigProvider) {
     dbConfig.db.run(query);
   }
 
-  def checkPercentagesIsUnderOneHundred(seq : Seq[AnswerAudiencePercentage]) : Int = {
+  def checkPercentagesIsUnderOneHundred(seq : Seq[AnswerAudiencePercentageJsonModel]) : Int = {
     var sum = 0;
     for(a <- 0 until seq.size) {
       sum += seq(a).percentage;

@@ -1,7 +1,5 @@
 package persistance.model
 
-import spray.json._
-
 /**
   * Created by michal on 22.05.17.
   */

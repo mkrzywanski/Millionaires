@@ -15,7 +15,8 @@ lazy val server = (project in file("server")).settings(
     "mysql" % "mysql-connector-java" % "5.1.34",
     "io.spray" %%  "spray-json" % "1.3.3",
     //evolutions,
-    specs2 % Test
+    specs2 % Test,
+    "org.scalatest" %%% "scalatest" % "3.0.0" % "test"
   ),
   // Compile the project before generating Eclipse files, so that generated .scala or .class files for views and routes are present
   EclipseKeys.preTasks := Seq(compile in Compile)
@@ -27,7 +28,9 @@ lazy val client = (project in file("client")).settings(
   scalaJSUseMainModuleInitializer := true,
   libraryDependencies ++= Seq(
     "org.scala-js" %%% "scalajs-dom" % "0.9.1",
-    "com.lihaoyi" %%% "scalatags" % "0.6.2"
+    "com.lihaoyi" %%% "scalatags" % "0.6.2",
+    "org.scalatest" %%% "scalatest" % "3.0.0" % "test",
+    "be.doeraene" %%% "scalajs-jquery" % "0.9.1"
   )
 ).enablePlugins(ScalaJSPlugin, ScalaJSWeb).
   dependsOn(sharedJs)

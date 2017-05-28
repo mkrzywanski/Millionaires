@@ -110,7 +110,10 @@ object ScalaJSExample extends js.JSApp {
             dom.window.location.reload()
           }
         } else {
-          scala.scalajs.js.Dynamic.global.alert("Odpowiedź błędna. Przegrałeś. Twoja wygrana to: " + winningValueSeq(currentLevel - 2))
+          if(currentLevel == 1)
+            scala.scalajs.js.Dynamic.global.alert("Odpowiedź błędna. Przegrałeś. Twoja wygrana to: 0")
+          else
+            scala.scalajs.js.Dynamic.global.alert("Odpowiedź błędna. Przegrałeś. Twoja wygrana to: " + winningValueSeq(currentLevel - 2))
           dom.window.location.reload()
         }
       }

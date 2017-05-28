@@ -11155,8 +11155,12 @@ $c_Lexample_ScalaJSExample$$anonfun$checkAnswer$1.prototype.applyOrElse__Lorg_sc
         return (void 0)
       }
     } else {
-      var s = ("Odpowied\u017a b\u0142\u0119dna. Przegra\u0142e\u015b. Twoja wygrana to: " + $m_Lexample_ScalaJSExample$().winningValueSeq$1.apply__I__O((((-2) + $m_Lexample_ScalaJSExample$().currentLevel$1) | 0)));
-      $g.alert(s);
+      if (($m_Lexample_ScalaJSExample$().currentLevel$1 === 1)) {
+        $g.alert("Odpowied\u017a b\u0142\u0119dna. Przegra\u0142e\u015b. Twoja wygrana to: 0")
+      } else {
+        var s = ("Odpowied\u017a b\u0142\u0119dna. Przegra\u0142e\u015b. Twoja wygrana to: " + $m_Lexample_ScalaJSExample$().winningValueSeq$1.apply__I__O((((-2) + $m_Lexample_ScalaJSExample$().currentLevel$1) | 0)));
+        $g.alert(s)
+      };
       var qual$2 = $m_Lorg_scalajs_dom_package$().window__Lorg_scalajs_dom_raw_Window().location;
       qual$2.reload();
       return (void 0)

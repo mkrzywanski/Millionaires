@@ -2,20 +2,20 @@ package controllers
 
 import javax.inject.Inject
 
-import persistance.protocols.MyJsonProtocol._
-import persistance.model.{AnswerAudiencePercentage, AnswerCorrectness, QuestionToFriend, QuestionWithAnswers}
+import service.protocols.MyJsonProtocol._
+import persistance.model.QuestionWithAnswers
 import play.api.mvc.{Action, Controller}
-import service.{AnswerService, QuestionService}
+import service.QuestionService
+import service.jsonmodels.{AnswerAudiencePercentageJsonModel, AnswerCorrectJsonModel, QuestionToFriendJsonModel}
 import shared.SharedMessages
 import shared.Utils
 import spray.json._
 
 import scala.concurrent.ExecutionContext.Implicits.global
-import scala.concurrent.Future
 import scala.util.Random
 
 
-class Application @Inject()(answerService: AnswerService, questionService: QuestionService) extends Controller {
+class Application @Inject()(questionService: QuestionService) extends Controller {
 
   def index = Action {
     Ok(views.html.index(SharedMessages.itWorks))
@@ -26,7 +26,7 @@ class Application @Inject()(answerService: AnswerService, questionService: Quest
   }
 
   def answers = Action.async { implicit request =>
-    val answers = answerService.listAll;
+    val answers = questionService.listAllAnswers;
     answers.map { answersSeq =>
       Ok(answersSeq.toJson.compactPrint)
     }
@@ -51,45 +51,45 @@ class Application @Inject()(answerService: AnswerService, questionService: Quest
   }
 
   def chceckIfAnswerIsCorrect(answerId : Int) = Action.async {
-    val result = questionService.checkIfAnswerIsCorrect(answerId);
+    val result = questionService.checkIfAnswerIsCorrect(answerId)
 
     result.map { r =>
-      Ok(AnswerCorrectness(r.isCorrect).toJson.compactPrint)
+      Ok(AnswerCorrectJsonModel(r.isCorrect).toJson.compactPrint)
     }
   }
 
   def questionToAFriend(questionId : Int) = Action.async {
-    val correctAnswer = questionService.getCorrectAnswerForQuestion(questionId);
+    val correctAnswer = questionService.getCorrectAnswerForQuestion(questionId)
 
     correctAnswer.map { r =>
-      Ok(QuestionToFriend("Myślę, że odpowiedź to", r.id).toJson.compactPrint)
+      Ok(QuestionToFriendJsonModel("Myślę, że odpowiedź to", r.id).toJson.compactPrint)
     }
   }
 
   def eliminateTwoWrongAnswers(questionId : Int) = Action.async {
-    val answers = questionService.getAllAnswersForQuestion(questionId);
+    val answers = questionService.getAllAnswersForQuestion(questionId)
 
     answers.map { r =>
-      val wrongAnswerSeq = r.filter(i => i.isCorrect == false);
-      val randomSeq = Random.shuffle(wrongAnswerSeq.toList);
+      val wrongAnswerSeq = r.filter(i => i.isCorrect == false)
+      val randomSeq = Random.shuffle(wrongAnswerSeq.toList)
       Ok(randomSeq.take(2).toJson.compactPrint)
     }
   }
 
   def questionForAudience(questionId : Int) = Action.async {
-    val answers = questionService.getAllAnswersForQuestion(questionId);
+    val answers = questionService.getAllAnswersForQuestion(questionId)
 
     answers.map { r =>
-      var audienceAnswerPercentageSeq = Seq.empty[AnswerAudiencePercentage];
-      var percentage = 80;
+      var audienceAnswerPercentageSeq = Seq.empty[AnswerAudiencePercentageJsonModel]
+      var percentage = 80
       r.foreach{ answer =>
-        var percentageForAnswer = Utils.getRandomNumber(0, percentage);
-        percentage -= percentageForAnswer;
-        if(answer.isCorrect == true) {
-          percentageForAnswer += 20;
+        var percentageForAnswer = Utils.getRandomNumber(0, percentage)
+        percentage -= percentageForAnswer
+        if(answer.isCorrect) {
+          percentageForAnswer += 20
         }
 
-        audienceAnswerPercentageSeq = audienceAnswerPercentageSeq :+ AnswerAudiencePercentage(answer.id, percentageForAnswer);
+        audienceAnswerPercentageSeq = audienceAnswerPercentageSeq :+ AnswerAudiencePercentageJsonModel(answer.id, percentageForAnswer);
       }
 
       val amountToAdd = questionService.checkPercentagesIsUnderOneHundred(audienceAnswerPercentageSeq);
