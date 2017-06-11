@@ -1,6 +1,6 @@
 import example.ScalaJSExample
 import org.scalatest._
-import org.scalajs.jquery.jQuery
+import org.scalajs.jquery.jQuery;
 
 class ScalaJsTest extends FunSpec {
 

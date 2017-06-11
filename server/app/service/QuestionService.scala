@@ -24,20 +24,20 @@ class QuestionService @Inject()(dbConfigProvider: DatabaseConfigProvider) {
   }
 
   def listAll = {
-    val q = (for {
+    val q = for {
       qu <- questions
       a <- answers if qu.id === a.questionId
-    } yield (qu, a))
+    } yield (qu, a)
     dbConfig.db.run(q.result.map(r => r.groupBy(_._1).mapValues(_.map(_._2)).toSeq))
 
   }
 
   def getRandomQuestionForLevel(level : Int) = {
 
-    val q = (for {
+    val q = for {
       qu <- questions if qu.level === level
       a <- answers if qu.id === a.questionId
-    } yield (qu, a))
+    } yield (qu, a)
 
     val query = q.result.map(r => r.groupBy(_._1).mapValues(_.map(_._2)).toSeq)
     dbConfig.db.run(query)
@@ -61,8 +61,8 @@ class QuestionService @Inject()(dbConfigProvider: DatabaseConfigProvider) {
   def checkPercentagesIsUnderOneHundred(seq : Seq[AnswerAudiencePercentageJsonModel]) : Int = {
     var sum = 0;
     for(a <- 0 until seq.size) {
-      sum += seq(a).percentage;
+      sum += seq(a).percentage
     }
-    return 100 - sum;
+    return 100 - sum
   }
 }

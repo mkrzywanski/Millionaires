@@ -80,22 +80,26 @@ class Application @Inject()(questionService: QuestionService) extends Controller
     val answers = questionService.getAllAnswersForQuestion(questionId)
 
     answers.map { r =>
-      var audienceAnswerPercentageSeq = Seq.empty[AnswerAudiencePercentageJsonModel]
-      var percentage = 80
-      r.foreach{ answer =>
-        var percentageForAnswer = Utils.getRandomNumber(0, percentage)
-        percentage -= percentageForAnswer
-        if(answer.isCorrect) {
-          percentageForAnswer += 20
+      this.synchronized {
+        var audienceAnswerPercentageSeq = scala.collection.mutable.ArraySeq.empty[AnswerAudiencePercentageJsonModel]
+        var percentage = 80
+        r.foreach { answer =>
+          var percentageForAnswer = Utils.getRandomNumber(0, percentage)
+          percentage -= percentageForAnswer
+          if (answer.isCorrect) {
+            percentageForAnswer += 20
+          }
+
+          audienceAnswerPercentageSeq = audienceAnswerPercentageSeq :+ AnswerAudiencePercentageJsonModel(answer.id, percentageForAnswer)
         }
 
-        audienceAnswerPercentageSeq = audienceAnswerPercentageSeq :+ AnswerAudiencePercentageJsonModel(answer.id, percentageForAnswer);
+        val amountToAdd = questionService.checkPercentagesIsUnderOneHundred(audienceAnswerPercentageSeq)
+        val indexOfSeqToAddDifference = Utils.getRandomNumber(0, audienceAnswerPercentageSeq.size - 1)
+        val percents = audienceAnswerPercentageSeq(indexOfSeqToAddDifference).percentage;
+        audienceAnswerPercentageSeq(indexOfSeqToAddDifference) = audienceAnswerPercentageSeq(indexOfSeqToAddDifference).copy(percentage = percents + amountToAdd)
+        Ok(audienceAnswerPercentageSeq.toSeq.toJson.compactPrint)
       }
 
-      val amountToAdd = questionService.checkPercentagesIsUnderOneHundred(audienceAnswerPercentageSeq);
-      val indexOfSeqToAddDifference = Utils.getRandomNumber(0, audienceAnswerPercentageSeq.size - 1);
-      audienceAnswerPercentageSeq(indexOfSeqToAddDifference).percentage += amountToAdd;
-      Ok(audienceAnswerPercentageSeq.toJson.compactPrint)
 
     }
   }

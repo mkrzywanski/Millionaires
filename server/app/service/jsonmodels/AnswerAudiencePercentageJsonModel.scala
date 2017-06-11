@@ -3,4 +3,4 @@ package service.jsonmodels
 /**
   * Created by michal on 23.05.17.
   */
-case class AnswerAudiencePercentageJsonModel(answerId : Int, var percentage: Int)
+case class AnswerAudiencePercentageJsonModel(answerId : Int, percentage: Int)
