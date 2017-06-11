@@ -48,10 +48,10 @@ Seq[Any](format.raw/*1.19*/("""
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Sat May 27 18:00:01 CEST 2017
-                  SOURCE: /home/michal/Pulpit/scala2017_02/server/app/views/index.scala.html
-                  HASH: 9b3fe3856bd34f24872a6dccb687a07352beb2da
-                  MATRIX: 527->1|639->18|667->21|701->47|740->49|767->50|870->124
+                  DATE: Sat Jun 10 23:47:33 CEST 2017
+                  SOURCE: D:/scalaproj/scala2017_02/server/app/views/index.scala.html
+                  HASH: 4084cde079fc4db1e717de60f1037e08bbdb7309
+                  MATRIX: 527->1|639->18|669->23|703->49|742->51|770->53|875->129
                   LINES: 20->1|25->1|27->3|27->3|27->3|28->4|30->6
                   -- GENERATED --
               */

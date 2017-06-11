@@ -4,11 +4,11 @@ output mode:
 0 -> single
 output directories:
 1 items
-output dir -> /home/michal/Pulpit/scala2017_02/client/target/scala-2.11/classes
+output dir -> D:\scalaproj\scala2017_02\client\target\scala-2.11\classes
 compile options:
 2 items
-0 -> -P:scalajs:mapSourceURI:file:/home/michal/Pulpit/scala2017_02/client/src/main/scala/->da7ac72173e0ea7eda0c/
-1 -> -Xplugin:/home/michal/.ivy2/cache/org.scala-js/scalajs-compiler_2.11.8/jars/scalajs-compiler_2.11.8-0.6.15.jar
+0 -> -P:scalajs:mapSourceURI:file:/D:/scalaproj/scala2017_02/client/src/main/scala/->923005308187f36c237a/
+1 -> -Xplugin:C:\Users\kaima_000\.ivy2\cache\org.scala-js\scalajs-compiler_2.11.8\jars\scalajs-compiler_2.11.8-0.6.15.jar
 javac options:
 0 items
 compiler version:
@@ -22,23 +22,23 @@ name hashing:
 0 -> true
 products:
 10 items
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> /home/michal/Pulpit/scala2017_02/client/target/scala-2.11/classes/example/ScalaJSExample$$anonfun$checkAnswer$1.class
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> /home/michal/Pulpit/scala2017_02/client/target/scala-2.11/classes/example/ScalaJSExample$$anonfun$donwloadNewQuestion$1.class
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> /home/michal/Pulpit/scala2017_02/client/target/scala-2.11/classes/example/ScalaJSExample$$anonfun$findAnswerIndex$1.class
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> /home/michal/Pulpit/scala2017_02/client/target/scala-2.11/classes/example/ScalaJSExample$$anonfun$proceedFiftyFiftyHint$1.class
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> /home/michal/Pulpit/scala2017_02/client/target/scala-2.11/classes/example/ScalaJSExample$$anonfun$proceedQuestionToAFriend$1.class
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> /home/michal/Pulpit/scala2017_02/client/target/scala-2.11/classes/example/ScalaJSExample$$anonfun$proceedQuestionToAudienceHint$1$$anonfun$applyOrElse$1.class
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> /home/michal/Pulpit/scala2017_02/client/target/scala-2.11/classes/example/ScalaJSExample$$anonfun$proceedQuestionToAudienceHint$1.class
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> /home/michal/Pulpit/scala2017_02/client/target/scala-2.11/classes/example/ScalaJSExample$$anonfun$updateQuestionUI$1.class
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> /home/michal/Pulpit/scala2017_02/client/target/scala-2.11/classes/example/ScalaJSExample$.class
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> /home/michal/Pulpit/scala2017_02/client/target/scala-2.11/classes/example/ScalaJSExample.class
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> D:\scalaproj\scala2017_02\client\target\scala-2.11\classes\example\ScalaJSExample$$anonfun$checkAnswer$1.class
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> D:\scalaproj\scala2017_02\client\target\scala-2.11\classes\example\ScalaJSExample$$anonfun$donwloadNewQuestion$1.class
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> D:\scalaproj\scala2017_02\client\target\scala-2.11\classes\example\ScalaJSExample$$anonfun$findAnswerIndex$1.class
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> D:\scalaproj\scala2017_02\client\target\scala-2.11\classes\example\ScalaJSExample$$anonfun$proceedFiftyFiftyHint$1.class
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> D:\scalaproj\scala2017_02\client\target\scala-2.11\classes\example\ScalaJSExample$$anonfun$proceedQuestionToAFriend$1.class
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> D:\scalaproj\scala2017_02\client\target\scala-2.11\classes\example\ScalaJSExample$$anonfun$proceedQuestionToAudienceHint$1$$anonfun$applyOrElse$1.class
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> D:\scalaproj\scala2017_02\client\target\scala-2.11\classes\example\ScalaJSExample$$anonfun$proceedQuestionToAudienceHint$1.class
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> D:\scalaproj\scala2017_02\client\target\scala-2.11\classes\example\ScalaJSExample$$anonfun$updateQuestionUI$1.class
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> D:\scalaproj\scala2017_02\client\target\scala-2.11\classes\example\ScalaJSExample$.class
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> D:\scalaproj\scala2017_02\client\target\scala-2.11\classes\example\ScalaJSExample.class
 binary dependencies:
 5 items
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> /home/michal/.ivy2/cache/com.lihaoyi/scalatags_sjs0.6_2.11/jars/scalatags_sjs0.6_2.11-0.6.2.jar
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> /home/michal/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.11/jars/scalajs-dom_sjs0.6_2.11-0.9.1.jar
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> /home/michal/.ivy2/cache/org.scala-js/scalajs-library_2.11/jars/scalajs-library_2.11-0.6.15.jar
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> /home/michal/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> C:\Program Files\Java\jdk1.8.0_73\jre\lib\rt.jar
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> C:\Users\kaima_000\.ivy2\cache\com.lihaoyi\scalatags_sjs0.6_2.11\jars\scalatags_sjs0.6_2.11-0.6.2.jar
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> C:\Users\kaima_000\.ivy2\cache\org.scala-js\scalajs-dom_sjs0.6_2.11\jars\scalajs-dom_sjs0.6_2.11-0.9.1.jar
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> C:\Users\kaima_000\.ivy2\cache\org.scala-js\scalajs-library_2.11\jars\scalajs-library_2.11-0.6.15.jar
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> C:\Users\kaima_000\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
 direct source dependencies:
 0 items
 direct external dependencies:
@@ -57,209 +57,209 @@ inheritance external dependencies:
 0 items
 class names:
 10 items
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> example.ScalaJSExample
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> example.ScalaJSExample$
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> example.ScalaJSExample$$anonfun$checkAnswer$1
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> example.ScalaJSExample$$anonfun$donwloadNewQuestion$1
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> example.ScalaJSExample$$anonfun$findAnswerIndex$1
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> example.ScalaJSExample$$anonfun$proceedFiftyFiftyHint$1
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> example.ScalaJSExample$$anonfun$proceedQuestionToAFriend$1
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> example.ScalaJSExample$$anonfun$proceedQuestionToAudienceHint$1
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> example.ScalaJSExample$$anonfun$proceedQuestionToAudienceHint$1$$anonfun$applyOrElse$1
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> example.ScalaJSExample$$anonfun$updateQuestionUI$1
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> example.ScalaJSExample
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> example.ScalaJSExample$
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> example.ScalaJSExample$$anonfun$checkAnswer$1
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> example.ScalaJSExample$$anonfun$donwloadNewQuestion$1
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> example.ScalaJSExample$$anonfun$findAnswerIndex$1
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> example.ScalaJSExample$$anonfun$proceedFiftyFiftyHint$1
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> example.ScalaJSExample$$anonfun$proceedQuestionToAFriend$1
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> example.ScalaJSExample$$anonfun$proceedQuestionToAudienceHint$1
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> example.ScalaJSExample$$anonfun$proceedQuestionToAudienceHint$1$$anonfun$applyOrElse$1
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> example.ScalaJSExample$$anonfun$updateQuestionUI$1
 used names:
 150 items
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> +
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> -
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> :=
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> <
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> <init>
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> <repeated>
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> ==
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> A
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> A1
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> AbstractPartialFunction
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Ajax
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Any
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Array
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Attr
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> AttrPair
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> AttrValue
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> B1
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> BR
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Boolean
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Breaks
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Builder
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Button
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> ConcreteHtmlTag
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Div
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Document
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Dynamic
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Element
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> ExecutionContext
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> ExecutionContextExecutor
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Function1
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Function2
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Future
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Implicits
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Inclusive
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> InputData
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Int
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> JSApp
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> JSExportTopLevel
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> JSON
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> JsDom
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Location
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Map
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Modifier
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Node
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Nothing
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Object
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Paragraph
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> PartialFunction
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Predef
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Range
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> RichInt
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> ScalaJSExample
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Seq
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> String
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> StringFrag
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> T
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> T0
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> TypedTag
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> U
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Unit
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> Window
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> XMLHttpRequest
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> all
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> annotation
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> answerId
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> any2stringadd
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> appendChild
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> apply
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> applyDynamic
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> asInstanceOf
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> bindNode
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> br
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> button
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> buttonIndex
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> chars
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> checkAnswer
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> class
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> collection
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> concurrent
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> control
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> correctAnswerIndex
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> createAnswerFourDiv
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> createAnswerOneDiv
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> createAnswerThreeDiv
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> createAnswerTwoDiv
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> createCurrentQuestionValueDiv
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> createHintsRow
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> createQuestionDiv
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> currentLevel
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> currentLevel_=
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> currentQuestion
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> currentQuestion_=
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> disableAnswerButton
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> div
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> document
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> dom
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> donwloadNewQuestion
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> example
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> ext
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> findAnswerIndex
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> firstAnswerIndex
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> foreach
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> fromString
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> get
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> getElementById
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> global
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> host
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> html
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> i
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> id
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> index
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> innerHTML_=
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> intWrapper
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> js
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> json
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> location
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> message
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> onSuccess
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> onclick
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> org
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> p
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> package
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> parse
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> qual$1
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> qual$2
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> reload
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> removeAttribute
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> render
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> responseText
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> scala
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> scalajs
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> scalatags
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> secondAnswerIndex
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> selectDynamic
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> setAttribute
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> status
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> stringAttr
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> stringFrag
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> textContent_=
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> to
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> toString
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> unchecked
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> updateLevelUI
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> updateQuestionUI
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> url
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> util
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> window
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> winningValueSeq
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> x$1
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> x$2
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> +
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> -
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> :=
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> <
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> <init>
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> <repeated>
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> ==
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> A
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> A1
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> AbstractPartialFunction
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Ajax
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Any
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Array
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Attr
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> AttrPair
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> AttrValue
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> B1
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> BR
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Boolean
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Breaks
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Builder
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Button
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> ConcreteHtmlTag
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Div
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Document
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Dynamic
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Element
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> ExecutionContext
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> ExecutionContextExecutor
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Function1
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Function2
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Future
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Implicits
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Inclusive
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> InputData
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Int
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> JSApp
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> JSExportTopLevel
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> JSON
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> JsDom
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Location
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Map
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Modifier
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Node
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Nothing
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Object
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Paragraph
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> PartialFunction
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Predef
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Range
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> RichInt
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> ScalaJSExample
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Seq
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> String
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> StringFrag
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> T
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> T0
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> TypedTag
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> U
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Unit
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> Window
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> XMLHttpRequest
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> all
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> annotation
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> answerId
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> any2stringadd
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> appendChild
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> apply
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> applyDynamic
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> asInstanceOf
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> bindNode
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> br
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> button
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> buttonIndex
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> chars
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> checkAnswer
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> class
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> collection
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> concurrent
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> control
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> correctAnswerIndex
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> createAnswerFourDiv
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> createAnswerOneDiv
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> createAnswerThreeDiv
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> createAnswerTwoDiv
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> createCurrentQuestionValueDiv
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> createHintsRow
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> createQuestionDiv
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> currentLevel
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> currentLevel_=
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> currentQuestion
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> currentQuestion_=
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> disableAnswerButton
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> div
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> document
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> dom
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> donwloadNewQuestion
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> example
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> ext
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> findAnswerIndex
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> firstAnswerIndex
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> foreach
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> fromString
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> get
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> getElementById
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> global
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> host
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> html
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> i
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> id
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> index
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> innerHTML_=
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> intWrapper
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> js
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> json
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> location
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> message
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> onSuccess
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> onclick
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> org
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> p
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> package
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> parse
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> qual$1
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> qual$2
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> reload
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> removeAttribute
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> render
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> responseText
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> scala
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> scalajs
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> scalatags
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> secondAnswerIndex
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> selectDynamic
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> setAttribute
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> status
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> stringAttr
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> stringFrag
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> textContent_=
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> to
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> toString
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> unchecked
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> updateLevelUI
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> updateQuestionUI
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> url
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> util
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> window
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> winningValueSeq
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> x$1
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> x$2
 product stamps:
 10 items
-/home/michal/Pulpit/scala2017_02/client/target/scala-2.11/classes/example/ScalaJSExample$$anonfun$checkAnswer$1.class -> lastModified(1495987073000)
-/home/michal/Pulpit/scala2017_02/client/target/scala-2.11/classes/example/ScalaJSExample$$anonfun$donwloadNewQuestion$1.class -> lastModified(1495987073000)
-/home/michal/Pulpit/scala2017_02/client/target/scala-2.11/classes/example/ScalaJSExample$$anonfun$findAnswerIndex$1.class -> lastModified(1495987073000)
-/home/michal/Pulpit/scala2017_02/client/target/scala-2.11/classes/example/ScalaJSExample$$anonfun$proceedFiftyFiftyHint$1.class -> lastModified(1495987073000)
-/home/michal/Pulpit/scala2017_02/client/target/scala-2.11/classes/example/ScalaJSExample$$anonfun$proceedQuestionToAFriend$1.class -> lastModified(1495987073000)
-/home/michal/Pulpit/scala2017_02/client/target/scala-2.11/classes/example/ScalaJSExample$$anonfun$proceedQuestionToAudienceHint$1$$anonfun$applyOrElse$1.class -> lastModified(1495987073000)
-/home/michal/Pulpit/scala2017_02/client/target/scala-2.11/classes/example/ScalaJSExample$$anonfun$proceedQuestionToAudienceHint$1.class -> lastModified(1495987073000)
-/home/michal/Pulpit/scala2017_02/client/target/scala-2.11/classes/example/ScalaJSExample$$anonfun$updateQuestionUI$1.class -> lastModified(1495987073000)
-/home/michal/Pulpit/scala2017_02/client/target/scala-2.11/classes/example/ScalaJSExample$.class -> lastModified(1495987073000)
-/home/michal/Pulpit/scala2017_02/client/target/scala-2.11/classes/example/ScalaJSExample.class -> lastModified(1495987073000)
+D:\scalaproj\scala2017_02\client\target\scala-2.11\classes\example\ScalaJSExample$$anonfun$checkAnswer$1.class -> lastModified(1497131249649)
+D:\scalaproj\scala2017_02\client\target\scala-2.11\classes\example\ScalaJSExample$$anonfun$donwloadNewQuestion$1.class -> lastModified(1497131249652)
+D:\scalaproj\scala2017_02\client\target\scala-2.11\classes\example\ScalaJSExample$$anonfun$findAnswerIndex$1.class -> lastModified(1497131249655)
+D:\scalaproj\scala2017_02\client\target\scala-2.11\classes\example\ScalaJSExample$$anonfun$proceedFiftyFiftyHint$1.class -> lastModified(1497131249659)
+D:\scalaproj\scala2017_02\client\target\scala-2.11\classes\example\ScalaJSExample$$anonfun$proceedQuestionToAFriend$1.class -> lastModified(1497131249663)
+D:\scalaproj\scala2017_02\client\target\scala-2.11\classes\example\ScalaJSExample$$anonfun$proceedQuestionToAudienceHint$1$$anonfun$applyOrElse$1.class -> lastModified(1497131249671)
+D:\scalaproj\scala2017_02\client\target\scala-2.11\classes\example\ScalaJSExample$$anonfun$proceedQuestionToAudienceHint$1.class -> lastModified(1497131249668)
+D:\scalaproj\scala2017_02\client\target\scala-2.11\classes\example\ScalaJSExample$$anonfun$updateQuestionUI$1.class -> lastModified(1497131249673)
+D:\scalaproj\scala2017_02\client\target\scala-2.11\classes\example\ScalaJSExample$.class -> lastModified(1497131249640)
+D:\scalaproj\scala2017_02\client\target\scala-2.11\classes\example\ScalaJSExample.class -> lastModified(1497131249610)
 source stamps:
 1 items
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> hash(8cde3994c53b30e5a0b8038379bf874b44143bdb)
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> hash(47ba46ed19b52126f689d262b7d82305677b0bf7)
 binary stamps:
 5 items
-/home/michal/.ivy2/cache/com.lihaoyi/scalatags_sjs0.6_2.11/jars/scalatags_sjs0.6_2.11-0.6.2.jar -> lastModified(1477129330000)
-/home/michal/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.11/jars/scalajs-dom_sjs0.6_2.11-0.9.1.jar -> lastModified(1465764499000)
-/home/michal/.ivy2/cache/org.scala-js/scalajs-library_2.11/jars/scalajs-library_2.11-0.6.15.jar -> lastModified(1490005375000)
-/home/michal/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> lastModified(1457105192000)
-/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar -> lastModified(1472160947000)
+C:\Program Files\Java\jdk1.8.0_73\jre\lib\rt.jar -> lastModified(1457902775919)
+C:\Users\kaima_000\.ivy2\cache\com.lihaoyi\scalatags_sjs0.6_2.11\jars\scalatags_sjs0.6_2.11-0.6.2.jar -> lastModified(1477129330000)
+C:\Users\kaima_000\.ivy2\cache\org.scala-js\scalajs-dom_sjs0.6_2.11\jars\scalajs-dom_sjs0.6_2.11-0.9.1.jar -> lastModified(1465764499000)
+C:\Users\kaima_000\.ivy2\cache\org.scala-js\scalajs-library_2.11\jars\scalajs-library_2.11-0.6.15.jar -> lastModified(1490005375000)
+C:\Users\kaima_000\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar -> lastModified(1457105192000)
 class names:
 5 items
-/home/michal/.ivy2/cache/com.lihaoyi/scalatags_sjs0.6_2.11/jars/scalatags_sjs0.6_2.11-0.6.2.jar -> scalatags.generic.MouseEventAttrs
-/home/michal/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.11/jars/scalajs-dom_sjs0.6_2.11-0.9.1.jar -> org.scalajs.dom.raw.Element
-/home/michal/.ivy2/cache/org.scala-js/scalajs-library_2.11/jars/scalajs-library_2.11-0.6.15.jar -> scala.scalajs.js.JSApp
-/home/michal/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> scala.Serializable
-/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar -> java.lang.Object
+C:\Program Files\Java\jdk1.8.0_73\jre\lib\rt.jar -> java.lang.Object
+C:\Users\kaima_000\.ivy2\cache\com.lihaoyi\scalatags_sjs0.6_2.11\jars\scalatags_sjs0.6_2.11-0.6.2.jar -> scalatags.generic.Attr
+C:\Users\kaima_000\.ivy2\cache\org.scala-js\scalajs-dom_sjs0.6_2.11\jars\scalajs-dom_sjs0.6_2.11-0.9.1.jar -> org.scalajs.dom.raw.Node
+C:\Users\kaima_000\.ivy2\cache\org.scala-js\scalajs-library_2.11\jars\scalajs-library_2.11-0.6.15.jar -> scala.scalajs.js.JSApp
+C:\Users\kaima_000\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar -> scala.runtime.AbstractPartialFunction
 internal apis:
 1 items
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwDYuLfgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAvc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwkEoO3XQAHXByb2NlZWRRdWVzdGlvblRvQXVkaWVuY2VIaW50c3EAfgAMIOguv3QAEmNyZWF0ZUFuc3dlclR3b0RpdnNxAH4ADFw2IJZ0AAZub3RpZnlzcQB+AAzbbA6bdAARY3JlYXRlUXVlc3Rpb25EaXZzcQB+AAyomlQddAAEd2FpdHNxAH4ADLVIcJN0AA11cGRhdGVMZXZlbFVJc3EAfgAM+JC9x3QADSRhc0luc3RhbmNlT2ZzcQB+AAznCL1ldAAUY3JlYXRlQW5zd2VyVGhyZWVEaXZzcQB+AAzvtoPWdAAGZXF1YWxzc3EAfgAMo6N6S3QAD3dpbm5pbmdWYWx1ZVNlcXNxAH4ADM6K6pJ0AA5TY2FsYUpTRXhhbXBsZXNxAH4ADIQ54Vh0AAxhc0luc3RhbmNlT2ZzcQB+AAxqUoJTdAAEaG9zdHNxAH4ADGrsZrJ0AAtjaGVja0Fuc3dlcnNxAH4ADI6i4LJ0AAxzeW5jaHJvbml6ZWRzcQB+AAxFqCFPdAASY3JlYXRlQW5zd2VyT25lRGl2c3EAfgAMU37OoXQADSRpc0luc3RhbmNlT2ZzcQB+AAwOY0BrdAAEbWFpbnNxAH4ADLD+2D10AAlub3RpZnlBbGxzcQB+AAxTWj0QdAAFY2hhcnNzcQB+AAwedH3YdAAMaXNJbnN0YW5jZU9mc3EAfgAMaiWVVHQAEmFuc3dlclRocmVlQ2xpY2tlZHNxAH4ADP+/VYB0ABNjcmVhdGVBbnN3ZXJGb3VyRGl2c3EAfgAMVkZ7gXQAFXByb2NlZWRGaWZ0eUZpZnR5SGludHNxAH4ADB8ziMZ0AAI9PXNxAH4ADE44v150AAVjbG9uZXNxAH4ADMwttHZ0ABhwcm9jZWVkUXVlc3Rpb25Ub0FGcmllbmRzcQB+AAzotLlZdAAQdXBkYXRlUXVlc3Rpb25VSXNxAH4ADMjInfV0ABBhbnN3ZXJUd29DbGlja2Vkc3EAfgAMVYP7m3QACHRvU3RyaW5nc3EAfgAMZzDfEXQAE2Rpc2FibGVBbnN3ZXJCdXR0b25zcQB+AAy3HKV6dAAQYW5zd2VyT25lQ2xpY2tlZHNxAH4ADJ+GDRF0AAIhPXNxAH4ADOTVQu90AAhnZXRDbGFzc3NxAH4ADKuLB4l0AA5jcmVhdGVIaW50c1Jvd3NxAH4ADM3ch590ABNkb253bG9hZE5ld1F1ZXN0aW9uc3EAfgAMy45IsXQADGN1cnJlbnRMZXZlbHNxAH4ADLiTVPx0ABFhbnN3ZXJGb3VyQ2xpY2tlZHNxAH4ADNxTlLd0AAJuZXNxAH4ADHsaCKl0AA9jdXJyZW50UXVlc3Rpb25zcQB+AAzYs/UWdAACZXFzcQB+AAyGkrlGdAAWJGpzJGV4cG9ydGVkJG1ldGgkbWFpbnNxAH4ADN0o4AB0AB1jcmVhdGVDdXJyZW50UXVlc3Rpb25WYWx1ZURpdnNxAH4ADB1YfYJ0AAIjI3NxAH4ADEsLEUJ0AAhmaW5hbGl6ZXNxAH4ADKagfyl0AA9maW5kQW5zd2VySW5kZXhzcQB+AAwoWtYQdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgB1eHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAWZXhhbXBsZS5TY2FsYUpTRXhhbXBsZXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAF0ACxzY2FsYS5zY2FsYWpzLmpzLmFubm90YXRpb24uSlNFeHBvcnRUb3BMZXZlbHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCOc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AHVMAAlpbmhlcml0ZWRxAH4AdUwAB3BhcmVudHNxAH4AdXhxAH4Ak3NxAH4AjnVxAH4AcAAAAABzcQB+AI51cQB+AHAAAAAAc3EAfgCOdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAANzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCSdAAFSlNBcHBzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AJJzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAARzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3EAfgCrdAAHc2NhbGFqc3NxAH4Aq3QAAmpzc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AKxzcQB+AJ90AAZPYmplY3RzcQB+AKNzcQB+AKZ1cQB+AKkAAAADc3EAfgCrdAAEamF2YXNxAH4Aq3QABGxhbmdxAH4AtHNxAH4An3QAA0FueXNxAH4Ao3NxAH4ApnVxAH4AqQAAAAJzcQB+AKtxAH4ArnEAfgC0dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAHZXhhbXBsZXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXE/HK5B1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABBL2hvbWUvbWljaGFsL1B1bHBpdC9zY2FsYTIwMTdfMDIvY2xpZW50L3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSM3jmUxTsw5aC4A4N5v4dLRBQ72w==
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwDYuLfgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAvc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwkEoO3XQAHXByb2NlZWRRdWVzdGlvblRvQXVkaWVuY2VIaW50c3EAfgAMIOguv3QAEmNyZWF0ZUFuc3dlclR3b0RpdnNxAH4ADFw2IJZ0AAZub3RpZnlzcQB+AAzbbA6bdAARY3JlYXRlUXVlc3Rpb25EaXZzcQB+AAyomlQddAAEd2FpdHNxAH4ADLVIcJN0AA11cGRhdGVMZXZlbFVJc3EAfgAM+JC9x3QADSRhc0luc3RhbmNlT2ZzcQB+AAznCL1ldAAUY3JlYXRlQW5zd2VyVGhyZWVEaXZzcQB+AAzvtoPWdAAGZXF1YWxzc3EAfgAMo6N6S3QAD3dpbm5pbmdWYWx1ZVNlcXNxAH4ADM6K6pJ0AA5TY2FsYUpTRXhhbXBsZXNxAH4ADIQ54Vh0AAxhc0luc3RhbmNlT2ZzcQB+AAxqUoJTdAAEaG9zdHNxAH4ADGrsZrJ0AAtjaGVja0Fuc3dlcnNxAH4ADI6i4LJ0AAxzeW5jaHJvbml6ZWRzcQB+AAxFqCFPdAASY3JlYXRlQW5zd2VyT25lRGl2c3EAfgAMU37OoXQADSRpc0luc3RhbmNlT2ZzcQB+AAwOY0BrdAAEbWFpbnNxAH4ADLD+2D10AAlub3RpZnlBbGxzcQB+AAxTWj0QdAAFY2hhcnNzcQB+AAwedH3YdAAMaXNJbnN0YW5jZU9mc3EAfgAMaiWVVHQAEmFuc3dlclRocmVlQ2xpY2tlZHNxAH4ADP+/VYB0ABNjcmVhdGVBbnN3ZXJGb3VyRGl2c3EAfgAMVkZ7gXQAFXByb2NlZWRGaWZ0eUZpZnR5SGludHNxAH4ADB8ziMZ0AAI9PXNxAH4ADE44v150AAVjbG9uZXNxAH4ADMwttHZ0ABhwcm9jZWVkUXVlc3Rpb25Ub0FGcmllbmRzcQB+AAzotLlZdAAQdXBkYXRlUXVlc3Rpb25VSXNxAH4ADMjInfV0ABBhbnN3ZXJUd29DbGlja2Vkc3EAfgAMVYP7m3QACHRvU3RyaW5nc3EAfgAMZzDfEXQAE2Rpc2FibGVBbnN3ZXJCdXR0b25zcQB+AAy3HKV6dAAQYW5zd2VyT25lQ2xpY2tlZHNxAH4ADJ+GDRF0AAIhPXNxAH4ADOTVQu90AAhnZXRDbGFzc3NxAH4ADKuLB4l0AA5jcmVhdGVIaW50c1Jvd3NxAH4ADM3ch590ABNkb253bG9hZE5ld1F1ZXN0aW9uc3EAfgAMy45IsXQADGN1cnJlbnRMZXZlbHNxAH4ADLiTVPx0ABFhbnN3ZXJGb3VyQ2xpY2tlZHNxAH4ADNxTlLd0AAJuZXNxAH4ADHsaCKl0AA9jdXJyZW50UXVlc3Rpb25zcQB+AAzYs/UWdAACZXFzcQB+AAyGkrlGdAAWJGpzJGV4cG9ydGVkJG1ldGgkbWFpbnNxAH4ADN0o4AB0AB1jcmVhdGVDdXJyZW50UXVlc3Rpb25WYWx1ZURpdnNxAH4ADB1YfYJ0AAIjI3NxAH4ADEsLEUJ0AAhmaW5hbGl6ZXNxAH4ADKagfyl0AA9maW5kQW5zd2VySW5kZXhzcQB+AAwoWtYQdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgB1eHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAWZXhhbXBsZS5TY2FsYUpTRXhhbXBsZXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAF0ACxzY2FsYS5zY2FsYWpzLmpzLmFubm90YXRpb24uSlNFeHBvcnRUb3BMZXZlbHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCOc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AHVMAAlpbmhlcml0ZWRxAH4AdUwAB3BhcmVudHNxAH4AdXhxAH4Ak3NxAH4AjnVxAH4AcAAAAABzcQB+AI51cQB+AHAAAAAAc3EAfgCOdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAANzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCSdAAFSlNBcHBzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AJJzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAARzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3EAfgCrdAAHc2NhbGFqc3NxAH4Aq3QAAmpzc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AKxzcQB+AJ90AAZPYmplY3RzcQB+AKNzcQB+AKZ1cQB+AKkAAAADc3EAfgCrdAAEamF2YXNxAH4Aq3QABGxhbmdxAH4AtHNxAH4An3QAA0FueXNxAH4Ao3NxAH4ApnVxAH4AqQAAAAJzcQB+AKtxAH4ArnEAfgC0dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAHZXhhbXBsZXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXJP55rx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA6RDpcc2NhbGFwcm9qXHNjYWxhMjAxN18wMlxjbGllbnRcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFEe6Ru0ZtSEm9onSYrfYIwVnewv3
 external apis:
 0 items
 source infos:
 1 items
-/home/michal/Pulpit/scala2017_02/client/src/main/scala/example/ScalaJSExample.scala -> 
-AAAAAQAAAQAAAGYAJCAgICAgICAgaWYoanNvbi5pc0NvcnJlY3QgPT0gdHJ1ZSkgewEAAA6BAQAAABoBABogICAgICAgICAgICAgICAgICAgICAgICAgIAEAUy9ob21lL21pY2hhbC9QdWxwaXQvc2NhbGEyMDE3XzAyL2NsaWVudC9zcmMvbWFpbi9zY2FsYS9leGFtcGxlL1NjYWxhSlNFeGFtcGxlLnNjYWxhAQBTL2hvbWUvbWljaGFsL1B1bHBpdC9zY2FsYTIwMTdfMDIvY2xpZW50L3NyYy9tYWluL3NjYWxhL2V4YW1wbGUvU2NhbGFKU0V4YW1wbGUuc2NhbGEAXXNjYWxhLnNjYWxhanMuanMuRHluYW1pYyBhbmQgQm9vbGVhbiBhcmUgdW5yZWxhdGVkOiB0aGV5IHdpbGwgbW9zdCBsaWtlbHkgbmV2ZXIgY29tcGFyZSBlcXVhbAEAAAAA
+D:\scalaproj\scala2017_02\client\src\main\scala\example\ScalaJSExample.scala -> 
+AAAAAQAAAQAAAGYAJCAgICAgICAgaWYoanNvbi5pc0NvcnJlY3QgPT0gdHJ1ZSkgewEAAA7mAQAAABoBABogICAgICAgICAgICAgICAgICAgICAgICAgIAEATEQ6XHNjYWxhcHJvalxzY2FsYTIwMTdfMDJcY2xpZW50XHNyY1xtYWluXHNjYWxhXGV4YW1wbGVcU2NhbGFKU0V4YW1wbGUuc2NhbGEBAExEOlxzY2FsYXByb2pcc2NhbGEyMDE3XzAyXGNsaWVudFxzcmNcbWFpblxzY2FsYVxleGFtcGxlXFNjYWxhSlNFeGFtcGxlLnNjYWxhAF1zY2FsYS5zY2FsYWpzLmpzLkR5bmFtaWMgYW5kIEJvb2xlYW4gYXJlIHVucmVsYXRlZDogdGhleSB3aWxsIG1vc3QgbGlrZWx5IG5ldmVyIGNvbXBhcmUgZXF1YWwBAAAAAA==
 compilations:
-94 items
+95 items
 00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXDFc4N11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVS9ob21lL21pY2hhbC9QdWxwaXQvcGxheS13aXRoLXNjYWxhanMtZXhhbXBsZS1tYXN0ZXIvY2xpZW50L3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
 01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXDSJrJB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVS9ob21lL21pY2hhbC9QdWxwaXQvcGxheS13aXRoLXNjYWxhanMtZXhhbXBsZS1tYXN0ZXIvY2xpZW50L3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
 02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXDrxANN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQS9ob21lL21pY2hhbC9QdWxwaXQvc2NhbGEyMDE3XzAyL2NsaWVudC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
@@ -354,3 +354,4 @@ compilations:
 91 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXEthLHZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQS9ob21lL21pY2hhbC9QdWxwaXQvc2NhbGEyMDE3XzAyL2NsaWVudC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
 92 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXEthjml1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQS9ob21lL21pY2hhbC9QdWxwaXQvc2NhbGEyMDE3XzAyL2NsaWVudC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
 93 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXE/HK5B1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQS9ob21lL21pY2hhbC9QdWxwaXQvc2NhbGEyMDE3XzAyL2NsaWVudC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+94 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXJP55rx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOkQ6XHNjYWxhcHJvalxzY2FsYTIwMTdfMDJcY2xpZW50XHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEv

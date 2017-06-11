@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/home/michal/Pulpit/scala2017_02/server/conf/routes
-// @DATE:Fri May 26 18:01:52 CEST 2017
+// @SOURCE:D:/scalaproj/scala2017_02/server/conf/routes
+// @DATE:Sat Jun 10 23:47:33 CEST 2017
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }

@@ -1,0 +1,1781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4dbec7c2-12c3-4e77-bcee-39c0cb0352bd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalatest_scalatest_2_11_3_0_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/test/ServerQuestionServiceTests.scala" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$0aa8e68efbcb49bd8bd3$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$0aa8e68efbcb49bd8bd3$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$0aa8e68efbcb49bd8bd3.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$0aa8e68efbcb49bd8bd3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$1eefeb95e16fe2a8664c$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$1eefeb95e16fe2a8664c$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$1eefeb95e16fe2a8664c.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$1eefeb95e16fe2a8664c.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$3e521b439b224bfcab4f$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$3e521b439b224bfcab4f.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$3e521b439b224bfcab4f.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$3f1a12661440dead982e$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$3f1a12661440dead982e.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$3f1a12661440dead982e.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$40e475aa08c505e5aa9d$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$40e475aa08c505e5aa9d.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$40e475aa08c505e5aa9d.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$7a314105bb04ebcd03d7$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$7a314105bb04ebcd03d7.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$7a314105bb04ebcd03d7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$bb8dbc0733aa1930c344$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$bb8dbc0733aa1930c344.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$bb8dbc0733aa1930c344.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$cef9587f3780f74841b0$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$cef9587f3780f74841b0.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$cef9587f3780f74841b0.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$d7134a6da924f5b144fb$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$d7134a6da924f5b144fb$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$d7134a6da924f5b144fb.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$d7134a6da924f5b144fb.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$f5b04dd91068002202cb$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$f5b04dd91068002202cb.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$f5b04dd91068002202cb.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/web/classes/main/META-INF/resources/webjars/server/0.1-SNAPSHOT/client-fastopt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/web/classes/main/META-INF/resources/webjars/server/0.1-SNAPSHOT/client-fastopt.js.map" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/scala-2.11/classes/example/ScalaJSExample$$anonfun$checkAnswer$1.sjsir" afterPath="$PROJECT_DIR$/client/target/scala-2.11/classes/example/ScalaJSExample$$anonfun$checkAnswer$1.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/scala-2.11/classes/example/ScalaJSExample$$anonfun$donwloadNewQuestion$1.sjsir" afterPath="$PROJECT_DIR$/client/target/scala-2.11/classes/example/ScalaJSExample$$anonfun$donwloadNewQuestion$1.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/scala-2.11/classes/example/ScalaJSExample$$anonfun$proceedFiftyFiftyHint$1.sjsir" afterPath="$PROJECT_DIR$/client/target/scala-2.11/classes/example/ScalaJSExample$$anonfun$proceedFiftyFiftyHint$1.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/scala-2.11/classes/example/ScalaJSExample$$anonfun$proceedQuestionToAFriend$1.sjsir" afterPath="$PROJECT_DIR$/client/target/scala-2.11/classes/example/ScalaJSExample$$anonfun$proceedQuestionToAFriend$1.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/scala-2.11/classes/example/ScalaJSExample$$anonfun$proceedQuestionToAudienceHint$1.sjsir" afterPath="$PROJECT_DIR$/client/target/scala-2.11/classes/example/ScalaJSExample$$anonfun$proceedQuestionToAudienceHint$1.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/scala-2.11/classes/example/ScalaJSExample$.sjsir" afterPath="$PROJECT_DIR$/client/target/scala-2.11/classes/example/ScalaJSExample$.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/$global/$global/$global/streams/package-js-deps/in-cache" afterPath="$PROJECT_DIR$/client/target/streams/$global/$global/$global/streams/package-js-deps/in-cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/$global/$global/$global/streams/package-js-deps/out-cache" afterPath="$PROJECT_DIR$/client/target/streams/$global/$global/$global/streams/package-js-deps/out-cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/client/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/client/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/client/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/compile/fastOptJS/$global/streams/in-cache" afterPath="$PROJECT_DIR$/client/target/streams/compile/fastOptJS/$global/streams/in-cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/compile/fastOptJS/$global/streams/out-cache" afterPath="$PROJECT_DIR$/client/target/streams/compile/fastOptJS/$global/streams/out-cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/scala-2.11/classes/service/QuestionService.class" afterPath="$PROJECT_DIR$/server/target/scala-2.11/classes/service/QuestionService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/scala-2.11/classes/views/html/index_Scope0$index.class" afterPath="$PROJECT_DIR$/server/target/scala-2.11/classes/views/html/index_Scope0$index.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/scala-2.11/classes/views/html/main_Scope0$main.class" afterPath="$PROJECT_DIR$/server/target/scala-2.11/classes/views/html/main_Scope0$main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterPath="$PROJECT_DIR$/server/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/server/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/server/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/server/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="$PROJECT_DIR$/server/target/streams/compile/copyResources/$global/streams/copy-resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/compile/playRoutes/$global/streams/op-cache" afterPath="$PROJECT_DIR$/server/target/streams/compile/playRoutes/$global/streams/op-cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/web-assets/assets/$global/streams/sync-mappings" afterPath="$PROJECT_DIR$/server/target/streams/web-assets/assets/$global/streams/sync-mappings" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/web-assets/webExportedDirectory/$global/streams/sync-mappings" afterPath="$PROJECT_DIR$/server/target/streams/web-assets/webExportedDirectory/$global/streams/sync-mappings" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.11/classes/shared/SharedMessages$.sjsir" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.11/classes/shared/SharedMessages$.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.11/classes/shared/Utils$.sjsir" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.11/classes/shared/Utils$.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/shared/.js/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/shared/.js/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/shared/.js/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/client/client$sources_sjs0.6_2.11/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/client/target/resolution-cache/client/client$sources_sjs0.6_2.11/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/client/client$sources_sjs0.6_2.11/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/client/client$sources_sjs0.6_2.11/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/client/client_sjs0.6_2.11/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/client/target/resolution-cache/client/client_sjs0.6_2.11/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/client/client_sjs0.6_2.11/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/client/client_sjs0.6_2.11/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-compile.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-docs.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-optional.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-phantom-js-jetty.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-phantom-js-jetty.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-plugin.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-pom.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-provided.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-runtime.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-sources.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-test.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client$sources_sjs0.6_2.11-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-compile.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-docs.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-optional.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-phantom-js-jetty.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-phantom-js-jetty.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-plugin.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-pom.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-provided.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-runtime.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-sources.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-test.xml" afterPath="$PROJECT_DIR$/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/scala-2.11/client-fastopt.js" afterPath="$PROJECT_DIR$/client/target/scala-2.11/client-fastopt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/scala-2.11/client-fastopt.js.map" afterPath="$PROJECT_DIR$/client/target/scala-2.11/client-fastopt.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/client/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/$global/projectDescriptors/$global/streams/out" afterPath="$PROJECT_DIR$/client/target/streams/$global/projectDescriptors/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/client/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/client/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/client/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/client/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/client/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/client/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/compile/fastOptJS/$global/streams/out" afterPath="$PROJECT_DIR$/client/target/streams/compile/fastOptJS/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/compile/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/client/target/streams/compile/fullClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/client/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/client/target/streams/compile/internalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/client/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/client/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/client/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/client/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/client/target/streams/test/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/scala2017_02-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/scala2017_02-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/scala2017_02-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/scala2017_02-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala2017_02-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala2017_02-build-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala2017_02-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala2017_02-build-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala2017_02-build-docs.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala2017_02-build-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala2017_02-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala2017_02-build-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala2017_02-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala2017_02-build-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala2017_02-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala2017_02-build-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala2017_02-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala2017_02-build-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala2017_02-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala2017_02-build-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala2017_02-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala2017_02-build-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala2017_02-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala2017_02-build-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala2017_02-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala2017_02-build-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala2017_02-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala2017_02-build-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala2017_02-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala2017_02-build-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/app/service/QuestionService.scala" afterPath="$PROJECT_DIR$/server/app/service/QuestionService.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/conf/application.conf" afterPath="$PROJECT_DIR$/server/conf/application.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/.history" afterPath="$PROJECT_DIR$/server/target/.history" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-compile.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-debian.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-debian.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-docker.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-docker.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-docs.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-linux.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-linux.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-optional.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-plugin.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-pom.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-provided.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-rpm.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-rpm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-runtime.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-sources.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-test.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-universal-docs.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-universal-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-universal-src.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-universal-src.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-universal.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-universal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-windows.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server$sources_2.11-windows.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-compile.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-debian.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-debian.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-docker.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-docker.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-docs.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-linux.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-linux.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-optional.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-plugin.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-pom.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-provided.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-rpm.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-rpm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-runtime.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-sources.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-test.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-universal-docs.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-universal-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-universal-src.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-universal-src.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-universal.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-universal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-windows.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/reports/server-server_2.11-windows.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/server/server$sources_2.11/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/server/target/resolution-cache/server/server$sources_2.11/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/server/server$sources_2.11/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/server/server$sources_2.11/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/server/server_2.11/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/server/target/resolution-cache/server/server_2.11/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/resolution-cache/server/server_2.11/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/server/target/resolution-cache/server/server_2.11/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/scala-2.11/classes/application.conf" afterPath="$PROJECT_DIR$/server/target/scala-2.11/classes/application.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala" afterPath="$PROJECT_DIR$/server/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala" afterPath="$PROJECT_DIR$/server/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/scala-2.11/routes/main/controllers/routes.java" afterPath="$PROJECT_DIR$/server/target/scala-2.11/routes/main/controllers/routes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/scala-2.11/routes/main/router/Routes.scala" afterPath="$PROJECT_DIR$/server/target/scala-2.11/routes/main/router/Routes.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/scala-2.11/routes/main/router/RoutesPrefix.scala" afterPath="$PROJECT_DIR$/server/target/scala-2.11/routes/main/router/RoutesPrefix.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/scala-2.11/twirl/main/views/html/index.template.scala" afterPath="$PROJECT_DIR$/server/target/scala-2.11/twirl/main/views/html/index.template.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/scala-2.11/twirl/main/views/html/main.template.scala" afterPath="$PROJECT_DIR$/server/target/scala-2.11/twirl/main/views/html/main.template.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/server/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/$global/playCommonClassloader/$global/streams/out" afterPath="$PROJECT_DIR$/server/target/streams/$global/playCommonClassloader/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/server/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/server/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/server/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/server/target/streams/compile/copyResources/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/server/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/server/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/server/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/server/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/server/target/streams/compile/internalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/server/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/server/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/server/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/server/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/server/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/server/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/server/target/streams/test/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/web/public/main/client-fastopt.js" afterPath="$PROJECT_DIR$/server/target/web/public/main/client-fastopt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/web/public/main/client-fastopt.js.map" afterPath="$PROJECT_DIR$/server/target/web/public/main/client-fastopt.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-compile.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-docs.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-optional.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-phantom-js-jetty.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-phantom-js-jetty.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-plugin.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-pom.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-provided.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-runtime.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-sources.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-test.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared$sources_sjs0.6_2.11-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-compile.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-docs.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-optional.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-phantom-js-jetty.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-phantom-js-jetty.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-plugin.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-pom.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-provided.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-runtime.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-sources.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-test.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/shared/shared$sources_sjs0.6_2.11/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/shared/shared$sources_sjs0.6_2.11/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/shared/shared$sources_sjs0.6_2.11/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/shared/shared$sources_sjs0.6_2.11/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/shared/shared_sjs0.6_2.11/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/shared/shared_sjs0.6_2.11/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/resolution-cache/shared/shared_sjs0.6_2.11/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/shared/.js/target/resolution-cache/shared/shared_sjs0.6_2.11/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/shared/.js/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/shared/.js/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/shared/.js/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/shared/.js/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/shared/.js/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/shared/.js/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/shared/.js/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/shared/.js/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/shared/.js/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/shared/.js/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/shared/.js/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/shared/.js/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.js/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/shared/.js/target/streams/test/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared$sources_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared$sources_2.11-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared$sources_2.11-compile.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared$sources_2.11-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared$sources_2.11-docs.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared$sources_2.11-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared$sources_2.11-optional.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared$sources_2.11-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared$sources_2.11-plugin.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared$sources_2.11-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared$sources_2.11-pom.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared$sources_2.11-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared$sources_2.11-provided.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared$sources_2.11-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared$sources_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared$sources_2.11-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared$sources_2.11-runtime.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared$sources_2.11-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared$sources_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared$sources_2.11-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared$sources_2.11-sources.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared$sources_2.11-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared$sources_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared$sources_2.11-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared$sources_2.11-test.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared$sources_2.11-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared_2.11-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared_2.11-compile.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared_2.11-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared_2.11-docs.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared_2.11-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared_2.11-optional.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared_2.11-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared_2.11-plugin.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared_2.11-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared_2.11-pom.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared_2.11-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared_2.11-provided.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared_2.11-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared_2.11-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared_2.11-runtime.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared_2.11-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared_2.11-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared_2.11-sources.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared_2.11-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared_2.11-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared_2.11-test.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/reports/shared-shared_2.11-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/shared/shared$sources_2.11/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/shared/shared$sources_2.11/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/shared/shared$sources_2.11/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/shared/shared$sources_2.11/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/shared/shared_2.11/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/shared/shared_2.11/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/shared/shared_2.11/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/shared/.jvm/target/resolution-cache/shared/shared_2.11/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/test/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/scala2017_02$sources_2.10/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/default/scala2017_02$sources_2.10/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/scala2017_02$sources_2.10/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/default/scala2017_02$sources_2.10/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/scala2017_02_2.10/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/default/scala2017_02_2.10/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/scala2017_02_2.10/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/default/scala2017_02_2.10/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02$sources_2.10-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02$sources_2.10-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02$sources_2.10-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02$sources_2.10-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02$sources_2.10-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02$sources_2.10-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02$sources_2.10-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02$sources_2.10-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02$sources_2.10-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02$sources_2.10-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02$sources_2.10-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02$sources_2.10-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02$sources_2.10-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02$sources_2.10-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02$sources_2.10-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02$sources_2.10-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02$sources_2.10-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02$sources_2.10-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02$sources_2.10-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02$sources_2.10-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02$sources_2.10-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02$sources_2.10-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02$sources_2.10-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02$sources_2.10-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02$sources_2.10-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02$sources_2.10-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02_2.10-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02_2.10-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02_2.10-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02_2.10-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02_2.10-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02_2.10-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02_2.10-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02_2.10-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02_2.10-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02_2.10-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02_2.10-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02_2.10-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02_2.10-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02_2.10-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02_2.10-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02_2.10-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02_2.10-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02_2.10-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02_2.10-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02_2.10-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02_2.10-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02_2.10-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02_2.10-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02_2.10-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02_2.10-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scala2017_02_2.10-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/client/target/" />
+    <ignored path="$PROJECT_DIR$/server/target/resolution-cache/" />
+    <ignored path="$PROJECT_DIR$/server/target/streams/" />
+    <ignored path="$PROJECT_DIR$/server/target/web/" />
+    <ignored path="$PROJECT_DIR$/shared/.js/target/" />
+    <ignored path="$PROJECT_DIR$/shared/.jvm/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <ignored path="$PROJECT_DIR$/client/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/client/project/target/" />
+    <ignored path="$PROJECT_DIR$/server/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/server/project/target/" />
+    <ignored path="$PROJECT_DIR$/shared/.js/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/shared/.js/project/target/" />
+    <ignored path="$PROJECT_DIR$/shared/.jvm/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/shared/.jvm/project/target/" />
+    <ignored path="$PROJECT_DIR$/server/target/specs2-reports/" />
+    <ignored path="$PROJECT_DIR$/server/target/test-reports/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="app.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScalaJSExample.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/scala/example/ScalaJSExample.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+              <folding>
+                <element signature="e#17#39#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/app/controllers/Application.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerQuestionServiceTests.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/test/ServerQuestionServiceTests.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="42" column="135" lean-forward="false" selection-start-line="42" selection-start-column="135" selection-end-line="42" selection-end-column="135" />
+              <folding>
+                <element signature="e#50#76#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Question.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/app/persistance/model/Question.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuestionService.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/app/service/QuestionService.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="43" column="3" lean-forward="false" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
+              <folding>
+                <element signature="e#17#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/server/test/ServerQuestionServiceTest.java" />
+        <option value="$PROJECT_DIR$/project/plugins.sbt" />
+        <option value="$PROJECT_DIR$/server/conf/application.conf" />
+        <option value="$PROJECT_DIR$/server/app/service/QuestionService.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/server/test/ServerQuestionServiceTests.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala2017_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala2017_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala2017_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala2017_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shared" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala2017_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala2017_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala2017_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala2017_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala2017_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala2017_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala2017_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala2017_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala2017_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala2017_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala2017_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala2017_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="persistance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala2017_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala2017_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="persistance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala2017_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala2017_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala2017_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala2017_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.sbt" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Scala Console.Scala Console">
+    <configuration default="false" name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
+      <module name="scala2017_02" />
+      <setting name="vmparams4" value="-Djline.terminal=NONE" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="consoleArgs" value="-usejavacp" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="client-build" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console">
+      <module name="" />
+      <setting name="vmparams4" value="-Djline.terminal=NONE" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="consoleArgs" value="-usejavacp" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="lastUpdateTimestamp" value="1497177194492" />
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="scala2017_02" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="scala2017_02" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="client" />
+                <option name="path" value="$PROJECT_DIR$/client" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="server" />
+                <option name="path" value="$PROJECT_DIR$/server" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="sharedJS" />
+                <option name="path" value="$PROJECT_DIR$/shared/.js" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="sharedJVM" />
+                <option name="path" value="$PROJECT_DIR$/shared/.jvm" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="scala2017_02-sources" />
+                <option name="path" value="$PROJECT_DIR$/shared" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="scala2017_02-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="client-build" />
+                <option name="path" value="$PROJECT_DIR$/client/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="server-build" />
+                <option name="path" value="$PROJECT_DIR$/server/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="sharedJS-build" />
+                <option name="path" value="$PROJECT_DIR$/shared/.js/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="sharedJVM-build" />
+                <option name="path" value="$PROJECT_DIR$/shared/.jvm/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4dbec7c2-12c3-4e77-bcee-39c0cb0352bd" name="Default" comment="" />
+      <created>1497090519753</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1497090519753</updated>
+      <workItem from="1497090577037" duration="259000" />
+      <workItem from="1497097543867" duration="1119000" />
+      <workItem from="1497109048051" duration="14334000" />
+      <workItem from="1497130460524" duration="250000" />
+      <workItem from="1497130722724" duration="1705000" />
+      <workItem from="1497175768200" duration="6680000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="24347000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/server/conf/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/service/QuestionService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+          <folding>
+            <element signature="e#17#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/scala/example/ScalaJSExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="e#17#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/controllers/Application.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/test/ServerQuestionServiceTests.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="33" column="3" lean-forward="false" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+          <folding>
+            <element signature="e#50#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/service/QuestionService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="50" lean-forward="false" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+          <folding>
+            <element signature="e#17#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/scala/example/ScalaJSExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="e#17#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/controllers/Application.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/test/ServerQuestionServiceTests.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+          <folding>
+            <element signature="e#50#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/service/QuestionService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="50" lean-forward="false" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+          <folding>
+            <element signature="e#17#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/Millionaires_Schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/Millionaires_Data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="55" lean-forward="true" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/views/main.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/views/index.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/test/ServerQuestionServiceTest.java" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.specs2/specs2-core_2.11/srcs/specs2-core_2.11-3.6.6-sources.jar!/org/specs2/mutable/Specification.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/service/jsonmodels/AnswerCorrectJsonModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/service/jsonmodels/QuestionToFriendJsonModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/service/protocols/MyJsonProtocol.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-slick_2.11/srcs/play-slick_2.11-2.1.0-sources.jar!/play/api/db/slick/DatabaseConfigProvider.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="52" column="3" lean-forward="true" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-3.0.0-sources.jar!/org/scalatest/FunSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="1556" column="23" lean-forward="false" selection-start-line="1556" selection-start-column="16" selection-end-line="1556" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/persistance/tabledefinitions/QuestionTableDef.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/persistance/tabledefinitions/AnswerTableDef.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/test/IntegrationSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/Millionaires_Data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/Millionaires_Schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="79" lean-forward="false" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/test/ApplicationSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/javax.inject/javax.inject/srcs/javax.inject-1-sources.jar!/javax/inject/Inject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2788">
+          <caret line="184" column="18" lean-forward="false" selection-start-line="184" selection-start-column="18" selection-end-line="184" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/server/conf/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="64" lean-forward="true" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/build.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-json_2.11/srcs/spray-json_2.11-1.3.3-sources.jar!/spray/json/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/controllers/Application.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/persistance/model/Answer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/scala/example/ScalaJSExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="e#17#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/service/QuestionService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="3" lean-forward="false" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
+          <folding>
+            <element signature="e#17#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/persistance/model/Question.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/test/ServerQuestionServiceTests.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="42" column="135" lean-forward="false" selection-start-line="42" selection-start-column="135" selection-end-line="42" selection-end-column="135" />
+          <folding>
+            <element signature="e#50#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="se.expertsystem.intellij.aop.aspectj.AspectJProjectComponent">
+    <setting name="isActivated" value="false" />
+  </component>
+</project>

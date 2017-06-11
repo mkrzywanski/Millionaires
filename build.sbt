@@ -16,7 +16,8 @@ lazy val server = (project in file("server")).settings(
     "io.spray" %%  "spray-json" % "1.3.3",
     //evolutions,
     specs2 % Test,
-    "org.scalatest" %%% "scalatest" % "3.0.0" % "test"
+    "org.scalatest" %% "scalatest" % "3.0.1" % "test",
+    "org.scalactic" %% "scalactic" % "3.0.1"
   ),
   // Compile the project before generating Eclipse files, so that generated .scala or .class files for views and routes are present
   EclipseKeys.preTasks := Seq(compile in Compile)
