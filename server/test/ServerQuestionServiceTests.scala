@@ -12,6 +12,7 @@ import shared.Utils
 import spray.json._
 import org.scalactic.TypeCheckedTripleEquals._
 import org.scalatest.concurrent.ScalaFutures
+import persistance.tabledefinitions.AnswerTableDef
 import service.jsonmodels.AnswerAudiencePercentageJsonModel
 
 import scala.collection.mutable
@@ -22,6 +23,7 @@ import ExecutionContext.Implicits.global
 import scala.concurrent.duration._
 import scalaz._
 import scalaz.Alpha.T
+import slick.jdbc.MySQLProfile.api._
 
 object Inject {
   lazy val injector = Guice.createInjector()
@@ -85,6 +87,13 @@ class ServerQuestionServiceTests extends FlatSpec with ScalaFutures with Matcher
     whenReady(returned){
       q => q.size shouldBe 4
         q.foreach(ques => ques.questionId shouldBe 1)
+    }
+  }
+
+  it should "not find answer" in {
+    val returned = questionService.getAllAnswersForQuestion(0)
+    whenReady(returned){
+      q => q.size shouldBe 0
     }
   }
 

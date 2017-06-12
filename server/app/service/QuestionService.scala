@@ -14,7 +14,7 @@ import scala.concurrent.ExecutionContext.Implicits.global;
   * Created by michal on 22.05.17.
   */
 class QuestionService{
-  val dbConfig = Database.forURL(url="jdbc:mysql://localhost/Millionaires",user="millionaires",password="millionaires",driver="com.mysql.jdbc.Driver")
+  var dbConfig = Database.forURL(url="jdbc:mysql://localhost/Millionaires",user="millionaires",password="millionaires",driver="com.mysql.jdbc.Driver")
   val answers = TableQuery[AnswerTableDef];
   val questions = TableQuery[QuestionTableDef];
 

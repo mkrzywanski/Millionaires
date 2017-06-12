@@ -1,11 +1,10 @@
-import example.ScalaJSExample
 import org.scalatest._
-import org.scalajs.jquery.jQuery;
+import org.scalajs.jquery.jQuery
 
 class ScalaJsTest extends FunSpec {
 
   // Initialize App
-  ScalaJSExample.main();
+  /*ScalaJSExample.main();
 
   describe("TutorialApp") {
     it("should contain 'Hello World' text in its body") {
@@ -26,5 +25,5 @@ class ScalaJsTest extends FunSpec {
       }
     }
 
-  }
+  }*/
 }
