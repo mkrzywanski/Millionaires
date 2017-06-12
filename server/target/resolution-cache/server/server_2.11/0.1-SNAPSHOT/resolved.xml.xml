@@ -4,7 +4,7 @@
 		module="server_2.11"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170611123555"
+		publication="20170611210325"
 	>
 		<description>
 		server
@@ -55,6 +55,7 @@
 		<dependency org="mysql" name="mysql-connector-java" rev="5.1.34" conf="compile->default(compile)"/>
 		<dependency org="io.spray" name="spray-json_2.11" rev="1.3.3" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-specs2_2.11" rev="2.5.13" conf="test->default(compile)"/>
-		<dependency org="org.scalatest" name="scalatest_2.11" rev="3.0.0" conf="test->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.11" rev="3.0.1" conf="test->default(compile)"/>
+		<dependency org="org.scalactic" name="scalactic_2.11" rev="3.0.1" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

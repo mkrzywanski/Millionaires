@@ -39,3 +39,10 @@ test
 test-only ServerQ*
 test-only SetSpec
 test-only ServerQ*
+test-only ScalaJsTest
+client
+test-only client
+projects
+project client
+test
+test-only ServerQ*
