@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/D:/scalaproj/scala2017_02/}client...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/michal/Pulpit/scala2017_02/}client...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: client#client_sjs0.6_2.11;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, phantom-js-jetty][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -2834,20 +2834,20 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.16.v20140903!jetty-http.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(orbit)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 203ms :: artifacts dl 12ms[0m
-[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT compile produced in D:\scalaproj\scala2017_02\client\target\resolution-cache\reports\client-client_sjs0.6_2.11-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT runtime produced in D:\scalaproj\scala2017_02\client\target\resolution-cache\reports\client-client_sjs0.6_2.11-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT test produced in D:\scalaproj\scala2017_02\client\target\resolution-cache\reports\client-client_sjs0.6_2.11-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT provided produced in D:\scalaproj\scala2017_02\client\target\resolution-cache\reports\client-client_sjs0.6_2.11-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT optional produced in D:\scalaproj\scala2017_02\client\target\resolution-cache\reports\client-client_sjs0.6_2.11-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT compile-internal produced in D:\scalaproj\scala2017_02\client\target\resolution-cache\reports\client-client_sjs0.6_2.11-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT runtime-internal produced in D:\scalaproj\scala2017_02\client\target\resolution-cache\reports\client-client_sjs0.6_2.11-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT test-internal produced in D:\scalaproj\scala2017_02\client\target\resolution-cache\reports\client-client_sjs0.6_2.11-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT plugin produced in D:\scalaproj\scala2017_02\client\target\resolution-cache\reports\client-client_sjs0.6_2.11-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT sources produced in D:\scalaproj\scala2017_02\client\target\resolution-cache\reports\client-client_sjs0.6_2.11-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT docs produced in D:\scalaproj\scala2017_02\client\target\resolution-cache\reports\client-client_sjs0.6_2.11-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT pom produced in D:\scalaproj\scala2017_02\client\target\resolution-cache\reports\client-client_sjs0.6_2.11-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT scala-tool produced in D:\scalaproj\scala2017_02\client\target\resolution-cache\reports\client-client_sjs0.6_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT phantom-js-jetty produced in D:\scalaproj\scala2017_02\client\target\resolution-cache\reports\client-client_sjs0.6_2.11-phantom-js-jetty.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (203ms resolve - 12ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 224ms :: artifacts dl 6ms[0m
+[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT compile produced in /home/michal/Pulpit/scala2017_02/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT runtime produced in /home/michal/Pulpit/scala2017_02/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT test produced in /home/michal/Pulpit/scala2017_02/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT provided produced in /home/michal/Pulpit/scala2017_02/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT optional produced in /home/michal/Pulpit/scala2017_02/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT compile-internal produced in /home/michal/Pulpit/scala2017_02/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT runtime-internal produced in /home/michal/Pulpit/scala2017_02/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT test-internal produced in /home/michal/Pulpit/scala2017_02/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT plugin produced in /home/michal/Pulpit/scala2017_02/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT sources produced in /home/michal/Pulpit/scala2017_02/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT docs produced in /home/michal/Pulpit/scala2017_02/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT pom produced in /home/michal/Pulpit/scala2017_02/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT scala-tool produced in /home/michal/Pulpit/scala2017_02/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	report for client#client_sjs0.6_2.11;0.1-SNAPSHOT phantom-js-jetty produced in /home/michal/Pulpit/scala2017_02/client/target/resolution-cache/reports/client-client_sjs0.6_2.11-phantom-js-jetty.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (224ms resolve - 6ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

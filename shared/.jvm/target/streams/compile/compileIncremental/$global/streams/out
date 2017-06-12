@@ -1,15 +1,63 @@
+[0m[[0mdebug[0m] [0m[naha] Invalidating C:\Program Files\Java\jdk1.8.0_73\jre\lib\rt.jar: class java.lang.Object now provided by /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating C:\Users\kaima_000\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar: class scala.util.Random now provided by /home/michal/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
-[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
-[0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set(D:\scalaproj\scala2017_02\shared\src\main\scala\shared\SharedMessages.scala, D:\scalaproj\scala2017_02\shared\src\main\scala\shared\Utils.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/home/michal/Pulpit/scala2017_02/shared/src/main/scala/shared/SharedMessages.scala, /home/michal/Pulpit/scala2017_02/shared/src/main/scala/shared/Utils.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set(D:\scalaproj\scala2017_02\shared\.jvm\target\scala-2.11\classes\shared\SharedMessages$.class, D:\scalaproj\scala2017_02\shared\.jvm\target\scala-2.11\classes\shared\SharedMessages.class, D:\scalaproj\scala2017_02\shared\.jvm\target\scala-2.11\classes\shared\Utils$.class, D:\scalaproj\scala2017_02\shared\.jvm\target\scala-2.11\classes\shared\Utils.class)[0m
 [0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set(C:\Program Files\Java\jdk1.8.0_73\jre\lib\rt.jar, C:\Users\kaima_000\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(D:\scalaproj\scala2017_02\shared\src\main\scala\shared\SharedMessages.scala, D:\scalaproj\scala2017_02\shared\src\main\scala\shared\Utils.scala, /home/michal/Pulpit/scala2017_02/shared/src/main/scala/shared/SharedMessages.scala, /home/michal/Pulpit/scala2017_02/shared/src/main/scala/shared/Utils.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
-[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set(D:\scalaproj\scala2017_02\shared\src\main\scala\shared\SharedMessages.scala, D:\scalaproj\scala2017_02\shared\src\main\scala\shared\Utils.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set(D:\scalaproj\scala2017_02\shared\src\main\scala\shared\Utils.scala, D:\scalaproj\scala2017_02\shared\src\main\scala\shared\SharedMessages.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(D:\scalaproj\scala2017_02\shared\src\main\scala\shared\SharedMessages.scala, D:\scalaproj\scala2017_02\shared\src\main\scala\shared\Utils.scala, /home/michal/Pulpit/scala2017_02/shared/src/main/scala/shared/SharedMessages.scala, /home/michal/Pulpit/scala2017_02/shared/src/main/scala/shared/Utils.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(D:\scalaproj\scala2017_02\shared\src\main\scala\shared\SharedMessages.scala, D:\scalaproj\scala2017_02\shared\src\main\scala\shared\Utils.scala, /home/michal/Pulpit/scala2017_02/shared/src/main/scala/shared/SharedMessages.scala, /home/michal/Pulpit/scala2017_02/shared/src/main/scala/shared/Utils.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 2 sources: invalidated sources (4) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 2 Scala sources to /home/michal/Pulpit/scala2017_02/shared/.jvm/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 59746c3c, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/michal/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/michal/Pulpit/scala2017_02/shared/.jvm/target/scala-2.11/classes[0m
+[0m[[0mdebug[0m] [0mScala compilation took 2.287459704 s[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/michal/Pulpit/scala2017_02/shared/src/main/scala/shared/SharedMessages.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/michal/Pulpit/scala2017_02/shared/src/main/scala/shared/SharedMessages.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/michal/Pulpit/scala2017_02/shared/src/main/scala/shared/SharedMessages.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/michal/Pulpit/scala2017_02/shared/src/main/scala/shared/SharedMessages.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/michal/Pulpit/scala2017_02/shared/src/main/scala/shared/SharedMessages.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	SharedMessages, notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, ==, clone, toString, !=, getClass, ne, itWorks, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/michal/Pulpit/scala2017_02/shared/src/main/scala/shared/Utils.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/michal/Pulpit/scala2017_02/shared/src/main/scala/shared/Utils.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/michal/Pulpit/scala2017_02/shared/src/main/scala/shared/Utils.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/michal/Pulpit/scala2017_02/shared/src/main/scala/shared/Utils.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/michal/Pulpit/scala2017_02/shared/src/main/scala/shared/Utils.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	getRandomNumber, notify, random, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, ==, clone, toString, Utils, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating D:\scalaproj\scala2017_02\shared\src\main\scala\shared\SharedMessages.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from D:\scalaproj\scala2017_02\shared\src\main\scala\shared\SharedMessages.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(D:\scalaproj\scala2017_02\shared\src\main\scala\shared\SharedMessages.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(D:\scalaproj\scala2017_02\shared\src\main\scala\shared\SharedMessages.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The D:\scalaproj\scala2017_02\shared\src\main\scala\shared\SharedMessages.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	SharedMessages, notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, ==, clone, toString, !=, getClass, ne, itWorks, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating D:\scalaproj\scala2017_02\shared\src\main\scala\shared\Utils.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from D:\scalaproj\scala2017_02\shared\src\main\scala\shared\Utils.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(D:\scalaproj\scala2017_02\shared\src\main\scala\shared\Utils.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(D:\scalaproj\scala2017_02\shared\src\main\scala\shared\Utils.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The D:\scalaproj\scala2017_02\shared\src\main\scala\shared\Utils.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	getRandomNumber, notify, random, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, ==, clone, toString, Utils, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Previously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
