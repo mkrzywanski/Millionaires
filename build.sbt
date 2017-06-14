@@ -1,6 +1,5 @@
 val scalaV = "2.11.8"
 
-
 lazy val server = (project in file("server")).settings(
   scalaVersion := scalaV,
   scalaJSProjects := Seq(client),
@@ -35,7 +34,8 @@ lazy val client = (project in file("client")).settings(
     "org.scalatest" %%% "scalatest" % "3.0.0" % "test",
     "be.doeraene" %%% "scalajs-jquery" % "0.9.1",
     "org.scalactic" %% "scalactic" % "3.0.1"
-  )
+  ),
+  jsDependencies += RuntimeDOM
 ).enablePlugins(ScalaJSPlugin, ScalaJSWeb).
   dependsOn(sharedJs)
 
