@@ -3,7 +3,10 @@ package service
 import javax.inject.Inject
 
 import persistance.tabledefinitions.{AnswerTableDef, QuestionTableDef}
+import play.api.{Application, Configuration, Play}
+import play.api.Play.current
 import play.api.db.slick.DatabaseConfigProvider
+import play.db.NamedDatabase
 import service.jsonmodels.AnswerAudiencePercentageJsonModel
 import slick.jdbc.JdbcProfile
 import slick.jdbc.MySQLProfile.api._
@@ -12,7 +15,9 @@ import scala.concurrent.ExecutionContext.Implicits.global;
 
 /**
   * Created by michal on 22.05.17.
+  *
   */
+
 class QuestionService{
   var dbConfig = Database.forURL(url="jdbc:mysql://localhost/Millionaires",user="millionaires",password="millionaires",driver="com.mysql.jdbc.Driver")
   val answers = TableQuery[AnswerTableDef];
