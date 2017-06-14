@@ -34,8 +34,8 @@ class ApplicationControllerTests extends FlatSpec with ScalaFutures with Matcher
     bodyText should include ("content")
   }
 
-  it should "give random question" in {
-    val result: Future[Result] = applicationController.getRandomQuestionForLevel(2).apply(FakeRequest())
+  it should "give random question" in new WithServer {
+    val result: Future[Result] = applicationController.getRandomQuestionForLevel(2).apply(FakeRequest().withSession("question2" -> "false"))
     val bodyText: String = contentAsString(result)
     bodyText should include ("\"level\":2")
     bodyText should not include ("\"level\":1")
@@ -47,20 +47,20 @@ class ApplicationControllerTests extends FlatSpec with ScalaFutures with Matcher
     bodyText should include ("isCorrect")
   }
 
-  it should "ask friend for help" in {
-    val result: Future[Result] = applicationController.questionToAFriend(2).apply(FakeRequest())
+  it should "ask friend for help" in new WithServer {
+    val result: Future[Result] = applicationController.questionToAFriend(2).apply(FakeRequest().withSession("friendHint" -> "false"))
     val bodyText: String = contentAsString(result)
     bodyText should include ("Myślę, że odpowiedź to")
   }
 
-  it should "eliminate two answers" in {
-    val result: Future[Result] = applicationController.eliminateTwoWrongAnswers(1).apply(FakeRequest())
+  it should "eliminate two answers" in new WithServer {
+    val result: Future[Result] = applicationController.eliminateTwoWrongAnswers(1).apply(FakeRequest().withSession("fiftyFiftyHint" -> "false"))
     val bodyText: String = contentAsString(result)
     bodyText.split("},").toSeq should have size 2
   }
 
-  it should "let the audience help our poor boy" in {
-    val result: Future[Result] = applicationController.questionForAudience(1).apply(FakeRequest())
+  it should "let the audience help our poor boy" in new WithServer {
+    val result: Future[Result] = applicationController.questionForAudience(1).apply(FakeRequest().withSession("audienceHint" -> "false"))
     val bodyText: String = contentAsString(result)
     bodyText.split("},").toSeq should have size 4
     bodyText should include ("percentage")
