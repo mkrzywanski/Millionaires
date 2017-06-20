@@ -25,3 +25,7 @@ password : millionaires
 
 i nadać mu odpowiednie prawa do czytania oraz zapisywania z i do bazy danych.
 
+## Autorzy
+Michał Krzywański 214928
+Bartłomiej Adamiak 214875
+
